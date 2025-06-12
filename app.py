@@ -1,20 +1,45 @@
-from flask import Flask, request, jsonify
+import streamlit as st
 import json
 import math
 
-# Model dosyalarını yükle
-with open("data/final/transition_probs.json", "r", encoding="utf-8") as f:
-    transition_probs = json.load(f)
-with open("data/final/emission_probs.json", "r", encoding="utf-8") as f:
-    emission_probs = json.load(f)
-with open("data/final/tag_counts.json", "r", encoding="utf-8") as f:
-    tag_counts = json.load(f)
-tag_set = list(tag_counts.keys())
+# POS Türkçe karşılıklar
+POS_TR = {
+    "NOUN": "İsim",
+    "VERB": "Fiil",
+    "ADJ": "Sıfat",
+    "ADV": "Zarf",
+    "PRON": "Zamir",
+    "PROPN": "Özel İsim",
+    "AUX": "Yardımcı Fiil",
+    "ADP": "İlgeç (Edat/Prepozisyon)",
+    "DET": "Belirteç (Tanımlık)",
+    "NUM": "Sayı",
+    "CCONJ": "Bağlaç (Eşdizim)",
+    "SCONJ": "Bağlaç (Alt cümle)",
+    "PART": "Partikül",
+    "INTJ": "Ünlem",
+    "PUNCT": "Noktalama",
+    "SYM": "Sembol",
+    "X": "Bilinmeyen",
+}
+
+@st.cache_resource
+def load_model():
+    with open("data/final/transition_probs.json", "r", encoding="utf-8") as f:
+        transition_probs = json.load(f)
+    with open("data/final/emission_probs.json", "r", encoding="utf-8") as f:
+        emission_probs = json.load(f)
+    with open("data/final/tag_counts.json", "r", encoding="utf-8") as f:
+        tag_counts = json.load(f)
+    tag_set = list(tag_counts.keys())
+    return transition_probs, emission_probs, tag_set
 
 LOG_ZERO = -1e10
 
 def viterbi_tag(sentence, transition_probs, emission_probs, tag_set):
     words = sentence.strip().split()
+    if not words:
+        return []
     V = [{}]
     path = {}
     for tag in tag_set:
@@ -39,20 +64,23 @@ def viterbi_tag(sentence, transition_probs, emission_probs, tag_set):
     max_final_tag = max(V[-1], key=lambda tag: V[-1][tag])
     return list(zip(words, path[max_final_tag]))
 
-# Flask app
-app = Flask(__name__)
+# --- Streamlit UI ---
+st.set_page_config(page_title="Türkçe POS Tagger", page_icon="🤖", layout="centered")
+st.title("Türkçe POS Tagger Demo 🤖")
+st.write("Herhangi bir Türkçe cümle girin, kelimelerin hangi tür (POS) olduğunu görün.")
 
-@app.route("/tag", methods=["POST"])
-def tag():
-    data = request.get_json()
-    sentence = data.get("sentence", "")
+sentence = st.text_input("Cümlenizi girin:", "")
+
+if st.button("POS Tagle!") or (sentence and st.session_state.get("already_tagged") != sentence):
+    st.session_state["already_tagged"] = sentence
+    transition_probs, emission_probs, tag_set = load_model()
     result = viterbi_tag(sentence, transition_probs, emission_probs, tag_set)
-    return jsonify({"result": result})
-
-# Test endpoint
-@app.route("/", methods=["GET"])
-def home():
-    return "Türkçe POS Tagger API (Viterbi tabanlı)"
-
-if __name__ == "__main__":
-    app.run(debug=True)
+    if result:
+        st.write("### Sonuç:")
+        display = [
+            {"Kelime": w, "Tag": t, "Türkçesi": POS_TR.get(t, "-")}
+            for w, t in result
+        ]
+        st.table(display)
+    else:
+        st.info("Lütfen bir cümle girin.")
