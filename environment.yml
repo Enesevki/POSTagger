@@ -1,0 +1,27 @@
+name: pos-tagger
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  
+  # Temel kütüphaneler
+  - numpy>=1.21.0
+  - pandas>=1.3.0
+  - scikit-learn>=1.0.0
+  
+  # Görselleştirme
+  - matplotlib>=3.5.0
+  - seaborn>=0.11.0
+  
+  # Web framework
+  - flask>=2.0.0
+  
+  # Veri işleme
+  - openpyxl>=3.0.9
+  - tqdm>=4.62.0
+  
+  # Pip packages
+  - pip
+  - pip:
+    - stanza>=1.4.0 
