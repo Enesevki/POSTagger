@@ -1,6 +1,6 @@
 HMM POS Tagger - Training Report
 ==================================================
-Training Date: 2025-06-13 00:39:04
+Training Date: 2025-06-13 10:41:27
 
 Configuration:
   Smoothing Alpha    : 0.1
@@ -27,7 +27,7 @@ Development Set Evaluation:
   Total Tokens  : 1,678
   Correct Tags  : 1,438
   Accuracy      : 85.70%
-  Eval Time     : 0.51s
+  Eval Time     : 0.50s
 
 POS Tag Distribution:
   NOUN    :  3,925 (29.5%)

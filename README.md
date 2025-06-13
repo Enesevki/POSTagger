@@ -1,6 +1,6 @@
 # HMM + Viterbi Tabanlı Türkçe POS-Tagger
 
-**Okul Projesi** — 1200 cümlelik dataset, Stanza ile etiketleme, temiz/modüler Python kodu
+**Okul Projesi** — 1600 cümlelik dataset, Stanza ile etiketleme, temiz/modüler Python kodu
 
 ## 📋 Proje Hakkında
 
@@ -46,11 +46,18 @@ pos_tagger_tr/
 │   ├── processed/           # CoNLL-U format veriler
 │   └── results/             # Sonuçlar ve raporlar
 ├── core/                    # Ana modüller
+│   ├── __init__.py          # Core modül importları
 │   ├── corpus.py            # CoNLL-U reader
 │   ├── counts.py            # HMM sayımları
 │   ├── model.py             # HMM model
 │   └── viterbi.py           # Viterbi decoder
 ├── scripts/                 # Çalıştırılabilir scriptler
+│   ├── __init__.py          # Script modül importları
+│   ├── 01_preprocess_data.py # Veri ön işleme
+│   ├── 02_train_model.py     # Model eğitimi
+│   ├── 03_test_model.py      # Test seti tahminleri
+│   ├── 04_evaluate.py        # Performans değerlendirme (overall precision/recall/F1)
+│   └── 05_interactive_demo.py # İnteraktif demo
 ├── models/                  # Eğitilmiş modeller
 ├── web/                     # Web demo
 │   ├── templates/           # HTML şablonları
@@ -58,6 +65,42 @@ pos_tagger_tr/
 │   └── app.py               # Flask uygulaması
 └── run_all_pipeline.py      # Tam pipeline script
 ```
+
+## 📝 Modül Açıklamaları
+
+### Core Modülleri
+
+- **corpus.py**:  
+  CoNLL-U formatındaki verileri okur, token ve etiket bilgilerini çıkarır.
+
+- **counts.py**:  
+  HMM için geçiş ve emisyon sayımlarını hesaplar, smoothing uygular.
+
+- **model.py**:  
+  HMM modelini eğitir, geçiş ve emisyon olasılıklarını hesaplar, modeli kaydeder ve yükler.
+
+- **viterbi.py**:  
+  Viterbi algoritması ile en olası etiket dizisini bulur.
+
+### Script Modülleri
+
+- **01_preprocess_data.py**:  
+  Ham Excel verisini işler, Stanza ile POS etiketleme yapar ve CoNLL-U formatında kaydeder.
+
+- **02_train_model.py**:  
+  HMM modelini eğitir, geçiş ve emisyon olasılıklarını hesaplar ve modeli kaydeder.
+
+- **03_test_model.py**:  
+  Eğitilmiş modeli test seti üzerinde çalıştırır ve tahminleri kaydeder.
+
+- **04_evaluate.py**:  
+  Model performansını değerlendirir, overall accuracy, precision, recall, F1 metriklerini hesaplar ve görselleştirir.
+
+- **05_interactive_demo.py**:  
+  Kullanıcıdan alınan cümleler üzerinde interaktif POS etiketleme yapar.
+
+- **run_all_pipeline.py**:  
+  Tüm pipeline'ı (preprocessing, training, evaluation, interactive demo) tek bir scriptte çalıştırır.
 
 ## 🎯 Özellikler
 
@@ -70,7 +113,7 @@ pos_tagger_tr/
 
 ## 📊 Beklenen Performans
 
-- **Accuracy**: ~88-92%
+- **Accuracy**: ~84.61%
 - **Macro F1**: ~0.85+
 - **OOV Accuracy**: ~70-80%
 

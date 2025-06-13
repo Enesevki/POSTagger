@@ -1,6 +1,6 @@
 HMM POS Tagger - Evaluation Report
 ============================================================
-Evaluation Date: 2025-06-13 10:12:53
+Evaluation Date: 2025-06-13 10:41:30
 
 Model Information:
 ------------------------------
@@ -16,9 +16,9 @@ Sentences Processed: 158
 Total Tokens: 1,735
 Correct Predictions: 1,468
 Overall Accuracy: 0.85%
-Total Time: 0.55 seconds
+Total Time: 0.54 seconds
 Average Sentence Time: 0.003 seconds
-Tokens per Second: 3151.1
+Tokens per Second: 3235.5
 
 Per-Tag Performance:
 ------------------------------

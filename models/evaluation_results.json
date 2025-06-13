@@ -1,5 +1,5 @@
 {
-  "evaluation_date": "2025-06-13 10:12:53",
+  "evaluation_date": "2025-06-13 10:41:30",
   "overall_performance": {
     "sentences_processed": 158,
     "total_tokens": 1735,
@@ -8,9 +8,9 @@
     "overall_precision": 0.7903603458845541,
     "overall_recall": 0.7910523873727647,
     "overall_f1": 0.7802138105584612,
-    "total_time": 0.5506019592285156,
-    "avg_sentence_time": 0.003478032124193409,
-    "tokens_per_second": 3151.0966695996176
+    "total_time": 0.536240816116333,
+    "avg_sentence_time": 0.003389343430724325,
+    "tokens_per_second": 3235.4866467747693
   },
   "tag_performance": {
     "ADJ": {
