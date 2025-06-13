@@ -21,6 +21,13 @@ class CoNLLUReader:
             filepath (str): Okunacak CoNLL-U dosyasının yolu
         """
         self.filepath = filepath
+        self._sentences = None  # Cache for sentences
+    
+    def __iter__(self):
+        """Iterator interface for sentence iteration."""
+        if self._sentences is None:
+            self._sentences = self.read_sentences()
+        return iter(self._sentences)
     
     def read_sentences(self):
         """
@@ -66,6 +73,7 @@ class CoNLLUReader:
             raise UnicodeDecodeError(f"Dosya encoding hatası: {self.filepath}. UTF-8 encoding gerekli.")
         
         print(f"✅ {len(sentences)} cümle başarıyla okundu: {self.filepath}")
+        self._sentences = sentences  # Cache sentences
         return sentences
     
     def _parse_token_line(self, line, line_num):
@@ -174,4 +182,62 @@ class CoNLLUReader:
         print(f"Ortalama cümle uzunluğu: {avg_sent_length:.1f}")
         print(f"Unique kelime sayısı: {len(vocabulary):,}")
         print(f"POS etiket sayısı: {len(tags)}")
-        print(f"POS etiketleri: {', '.join(sorted(tags))}") 
+        print(f"POS etiketleri: {', '.join(sorted(tags))}")
+    
+    def get_sentence_count(self):
+        """
+        Corpus'taki toplam cümle sayısını döndürür.
+        
+        Returns:
+            int: Cümle sayısı
+        """
+        if self._sentences is None:
+            self._sentences = self.read_sentences()
+        return len(self._sentences)
+    
+    def get_token_count(self):
+        """
+        Corpus'taki toplam token sayısını döndürür.
+        
+        Returns:
+            int: Token sayısı
+        """
+        if self._sentences is None:
+            self._sentences = self.read_sentences()
+        return sum(len(sent) for sent in self._sentences)
+    
+    def get_tag_statistics(self):
+        """
+        POS tag'ların frekans istatistiklerini döndürür.
+        
+        Returns:
+            dict: {tag: count} formatında istatistikler
+        """
+        if self._sentences is None:
+            self._sentences = self.read_sentences()
+        
+        tag_counts = {}
+        for sentence in self._sentences:
+            for token in sentence:
+                tag = token['upos']
+                tag_counts[tag] = tag_counts.get(tag, 0) + 1
+        
+        return tag_counts
+    
+    def get_word_statistics(self):
+        """
+        Kelimelerin frekans istatistiklerini döndürür.
+        
+        Returns:
+            dict: {word: count} formatında istatistikler
+        """
+        if self._sentences is None:
+            self._sentences = self.read_sentences()
+        
+        word_counts = {}
+        for sentence in self._sentences:
+            for token in sentence:
+                word = token['form'].lower()
+                word_counts[word] = word_counts.get(word, 0) + 1
+        
+        return word_counts 

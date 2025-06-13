@@ -1,0 +1,115 @@
+HMM POS Tagger - Evaluation Report
+============================================================
+Evaluation Date: 2025-06-13 10:12:53
+
+Model Information:
+------------------------------
+Model File: models/hmm_model.pkl
+Test File: data/processed/test.conllu
+Vocabulary Size: 0
+Tag Set Size: 0
+Training Date: N/A
+
+Overall Performance:
+------------------------------
+Sentences Processed: 158
+Total Tokens: 1,735
+Correct Predictions: 1,468
+Overall Accuracy: 0.85%
+Total Time: 0.55 seconds
+Average Sentence Time: 0.003 seconds
+Tokens per Second: 3151.1
+
+Per-Tag Performance:
+------------------------------
+Tag        Total    Correct  Acc%     Prec%    Rec%     F1      
+----------------------------------------------------------------------
+ADJ             179      148   82.68   78.31   82.68   80.43
+ADP              93       88   94.62   96.70   94.62   95.65
+ADV             111      101   90.99   69.66   90.99   78.91
+AUX              25       21   84.00   75.00   84.00   79.25
+CCONJ            61       55   90.16   77.46   90.16   83.33
+DET             105      103   98.10   71.03   98.10   82.40
+NOUN            499      406   81.36   86.38   81.36   83.80
+NUM              14        6   42.86   75.00   42.86   54.55
+PRON             68       61   89.71   95.31   89.71   92.42
+PROPN            16        3   18.75   37.50   18.75   25.00
+PUNCT           193      192   99.48   96.48   99.48   97.96
+VERB            371      284   76.55   89.59   76.55   82.56
+
+Best Performing Tags (by F1 score):
+  PUNCT     : F1=97.96 (Acc=99.48%)
+  ADP       : F1=95.65 (Acc=94.62%)
+  PRON      : F1=92.42 (Acc=89.71%)
+  NOUN      : F1=83.80 (Acc=81.36%)
+  CCONJ     : F1=83.33 (Acc=90.16%)
+
+Worst Performing Tags (by F1 score):
+  PROPN     : F1=25.00 (Acc=18.75%)
+  NUM       : F1=54.55 (Acc=42.86%)
+  ADV       : F1=78.91 (Acc=90.99%)
+  AUX       : F1=79.25 (Acc=84.00%)
+  ADJ       : F1=80.43 (Acc=82.68%)
+
+Error Examples (First 20):
+----------------------------------------
+ 1. Word: 'İnternetten' True: NOUN → Pred: CCONJ
+    Context: İnternetten sipariş verdiğim ürün bir hafta dır kargoya verilmediği için siparişi iptal etmek zorund...
+
+ 2. Word: 'bir' True: NUM → Pred: DET
+    Context: İnternetten sipariş verdiğim ürün bir hafta dır kargoya verilmediği için siparişi iptal etmek zorund...
+
+ 3. Word: 'İnternetten' True: NOUN → Pred: DET
+    Context: İnternetten sipariş verdiğim ürün bir hafta dır kargoya verilmediği için siparişi iptal etmek zorund...
+
+ 4. Word: 'İzmir'de' True: PROPN → Pred: ADV
+    Context: Bu sene İzmir'de olan depremde binaların temelleri sağlam olmadığı için yıkılmış ....
+
+ 5. Word: 'sene' True: NOUN → Pred: ADV
+    Context: Bu sene İzmir'de olan depremde binaların temelleri sağlam olmadığı için yıkılmış ....
+
+ 6. Word: 'zor' True: ADJ → Pred: DET
+    Context: En zor anında insanın yanında olan ailesi ve dostlarıymı ş...
+
+ 7. Word: 'Temizliğine' True: NOUN → Pred: DET
+    Context: Temizliğine dikkat etmeyen insanları hiç anlamıyorum ....
+
+ 8. Word: 'etmeyen' True: VERB → Pred: NOUN
+    Context: Temizliğine dikkat etmeyen insanları hiç anlamıyorum ....
+
+ 9. Word: 'gitmek' True: VERB → Pred: NOUN
+    Context: Bugün işe gitmek için sabahın köründe kalkmaktan ne kadar mutluyum bir bilsen ( ! )...
+
+10. Word: 'bir' True: ADV → Pred: DET
+    Context: Bugün işe gitmek için sabahın köründe kalkmaktan ne kadar mutluyum bir bilsen ( ! )...
+
+11. Word: 'gitmek' True: VERB → Pred: NOUN
+    Context: Bugün işe gitmek için sabahın köründe kalkmaktan ne kadar mutluyum bir bilsen ( ! )...
+
+12. Word: '(' True: PUNCT → Pred: VERB
+    Context: Bugün işe gitmek için sabahın köründe kalkmaktan ne kadar mutluyum bir bilsen ( ! )...
+
+13. Word: 'Yurdun' True: NOUN → Pred: CCONJ
+    Context: Yurdun bahçesinde otururkken yanıma gelen kedi beni çok eğlendirdi ....
+
+14. Word: 'Bulutların' True: NOUN → Pred: ADJ
+    Context: Bulutların her birinin birer gölge yaratık olduğunu düşündüğüm çocukluk fikri , bugün hâlâ içimde ga...
+
+15. Word: 'birinin' True: PRON → Pred: NOUN
+    Context: Bulutların her birinin birer gölge yaratık olduğunu düşündüğüm çocukluk fikri , bugün hâlâ içimde ga...
+
+16. Word: 'her' True: DET → Pred: VERB
+    Context: Bulutların her birinin birer gölge yaratık olduğunu düşündüğüm çocukluk fikri , bugün hâlâ içimde ga...
+
+17. Word: 'Bulutların' True: NOUN → Pred: CCONJ
+    Context: Bulutların her birinin birer gölge yaratık olduğunu düşündüğüm çocukluk fikri , bugün hâlâ içimde ga...
+
+18. Word: 'Bulutların' True: NOUN → Pred: VERB
+    Context: Bulutların her birinin birer gölge yaratık olduğunu düşündüğüm çocukluk fikri , bugün hâlâ içimde ga...
+
+19. Word: 'Türkiye'de' True: PROPN → Pred: NOUN
+    Context: Türkiye'de toplumsal şiddet her geçen gün artıyor ....
+
+20. Word: 'şiddet' True: NOUN → Pred: ADJ
+    Context: Türkiye'de toplumsal şiddet her geçen gün artıyor ....
+

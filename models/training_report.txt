@@ -1,0 +1,45 @@
+HMM POS Tagger - Training Report
+==================================================
+Training Date: 2025-06-13 00:39:04
+
+Configuration:
+  Smoothing Alpha    : 0.1
+  N-gram Order       : 2
+  Min Word Frequency : 2
+  Turkish Morphology : True
+
+Training Data:
+  File              : data/processed/train.conllu
+  Sentences         : 1,263
+  Tokens            : 13,303
+  Vocabulary Size   : 4,679
+  POS Tags          : 13
+  Tags: ADJ, ADP, ADV, AUX, CCONJ, DET, INTJ, NOUN, NUM, PRON, PROPN, PUNCT, VERB
+
+Model Statistics:
+  Emission Entries  : 4,754
+  Transition Entries: 151
+  Vocabulary Size   : 4,679
+  Tag Set Size      : 13
+
+Development Set Evaluation:
+  File          : data/processed/dev.conllu
+  Total Tokens  : 1,678
+  Correct Tags  : 1,438
+  Accuracy      : 85.70%
+  Eval Time     : 0.51s
+
+POS Tag Distribution:
+  NOUN    :  3,925 (29.5%)
+  VERB    :  2,990 (22.5%)
+  PUNCT   :  1,597 (12.0%)
+  ADJ     :  1,346 (10.1%)
+  ADV     :    843 ( 6.3%)
+  DET     :    657 ( 4.9%)
+  ADP     :    606 ( 4.6%)
+  CCONJ   :    475 ( 3.6%)
+  PRON    :    470 ( 3.5%)
+  AUX     :    221 ( 1.7%)
+  PROPN   :     85 ( 0.6%)
+  NUM     :     83 ( 0.6%)
+  INTJ    :      5 ( 0.0%)

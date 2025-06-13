@@ -36,6 +36,9 @@ class HMMModel:
             'tag_count': 0,
             'vocab_size': 0
         }
+        
+        # Metadata alias for compatibility
+        self.metadata = self.model_info
     
     def train(self, train_sentences, smoothing=0.1):
         """
@@ -116,7 +119,8 @@ class HMMModel:
         except Exception as e:
             raise IOError(f"Model kaydedilemedi: {e}")
     
-    def load(self, filepath):
+    @classmethod
+    def load(cls, filepath):
         """
         Kaydedilmiş modeli dosyadan yükler.
         
@@ -134,16 +138,22 @@ class HMMModel:
             with open(filepath, 'rb') as f:
                 model_data = pickle.load(f)
             
+            # Yeni model instance oluştur
+            model = cls()
+            
             # Model verilerini yükle
-            self.counts = model_data['counts']
-            self.tags = model_data['tags']
-            self.vocab = model_data['vocab']
-            self.smoothing = model_data['smoothing']
-            self.model_info = model_data.get('model_info', {})
-            self.is_trained = model_data.get('is_trained', True)
+            model.counts = model_data['counts']
+            model.tags = model_data['tags']
+            model.vocab = model_data['vocab']
+            model.smoothing = model_data['smoothing']
+            model.model_info = model_data.get('model_info', {})
+            model.metadata = model.model_info  # Alias
+            model.is_trained = model_data.get('is_trained', True)
             
             print(f"✅ Model başarıyla yüklendi: {filepath}")
-            self._print_model_info()
+            model._print_model_info()
+            
+            return model
             
         except Exception as e:
             raise ValueError(f"Model yüklenemedi: {e}")
@@ -179,6 +189,23 @@ class HMMModel:
             raise ValueError("Model eğitilmemiş!")
         
         return self.counts.get_emission_prob(tag, word, self.smoothing)
+    
+    def viterbi_decode(self, words):
+        """
+        Viterbi algoritması ile cümledeki kelimeler için en olası tag sequence'ini bulur.
+        
+        Args:
+            words (list): Kelime listesi
+        
+        Returns:
+            list: En olası POS tag sequence'i
+        """
+        if not self.is_trained:
+            raise ValueError("Model eğitilmemiş!")
+        
+        from .viterbi import ViterbiDecoder
+        decoder = ViterbiDecoder(self)
+        return decoder.decode(words)
     
     def predict_tag(self, word):
         """

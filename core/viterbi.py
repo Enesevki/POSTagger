@@ -179,9 +179,12 @@ class ViterbiDecoder:
             prev_tag = backpointer[t][path[-1]]
             path.append(prev_tag)
         
-        # Path'i ters çevir (START tag'ini çıkar)
+        # Path'i ters çevir
         path.reverse()
-        return path[1:]  # <START> tag'ini çıkar
+        # Eğer path'in başında <START> varsa onu çıkar
+        if path and path[0] == "<START>":
+            path = path[1:]
+        return path
     
     def decode_with_probabilities(self, words):
         """

@@ -1,0 +1,114 @@
+{
+  "evaluation_date": "2025-06-13 10:12:53",
+  "overall_performance": {
+    "sentences_processed": 158,
+    "total_tokens": 1735,
+    "correct_predictions": 1468,
+    "overall_accuracy": 0.8461095100864553,
+    "overall_precision": 0.7903603458845541,
+    "overall_recall": 0.7910523873727647,
+    "overall_f1": 0.7802138105584612,
+    "total_time": 0.5506019592285156,
+    "avg_sentence_time": 0.003478032124193409,
+    "tokens_per_second": 3151.0966695996176
+  },
+  "tag_performance": {
+    "ADJ": {
+      "total": 179,
+      "correct": 148,
+      "accuracy": 82.68156424581005,
+      "precision": 78.3068783068783,
+      "recall": 82.68156424581005,
+      "f1": 80.43478260869564
+    },
+    "ADP": {
+      "total": 93,
+      "correct": 88,
+      "accuracy": 94.6236559139785,
+      "precision": 96.7032967032967,
+      "recall": 94.6236559139785,
+      "f1": 95.65217391304348
+    },
+    "ADV": {
+      "total": 111,
+      "correct": 101,
+      "accuracy": 90.990990990991,
+      "precision": 69.6551724137931,
+      "recall": 90.990990990991,
+      "f1": 78.90624999999999
+    },
+    "AUX": {
+      "total": 25,
+      "correct": 21,
+      "accuracy": 84.0,
+      "precision": 75.0,
+      "recall": 84.0,
+      "f1": 79.24528301886792
+    },
+    "CCONJ": {
+      "total": 61,
+      "correct": 55,
+      "accuracy": 90.1639344262295,
+      "precision": 77.46478873239437,
+      "recall": 90.1639344262295,
+      "f1": 83.33333333333334
+    },
+    "DET": {
+      "total": 105,
+      "correct": 103,
+      "accuracy": 98.09523809523809,
+      "precision": 71.03448275862068,
+      "recall": 98.09523809523809,
+      "f1": 82.39999999999999
+    },
+    "NOUN": {
+      "total": 499,
+      "correct": 406,
+      "accuracy": 81.3627254509018,
+      "precision": 86.38297872340426,
+      "recall": 81.3627254509018,
+      "f1": 83.79772961816306
+    },
+    "NUM": {
+      "total": 14,
+      "correct": 6,
+      "accuracy": 42.857142857142854,
+      "precision": 75.0,
+      "recall": 42.857142857142854,
+      "f1": 54.54545454545454
+    },
+    "PRON": {
+      "total": 68,
+      "correct": 61,
+      "accuracy": 89.70588235294117,
+      "precision": 95.3125,
+      "recall": 89.70588235294117,
+      "f1": 92.42424242424244
+    },
+    "PROPN": {
+      "total": 16,
+      "correct": 3,
+      "accuracy": 18.75,
+      "precision": 37.5,
+      "recall": 18.75,
+      "f1": 25.0
+    },
+    "PUNCT": {
+      "total": 193,
+      "correct": 192,
+      "accuracy": 99.48186528497409,
+      "precision": 96.4824120603015,
+      "recall": 99.48186528497409,
+      "f1": 97.95918367346938
+    },
+    "VERB": {
+      "total": 371,
+      "correct": 284,
+      "accuracy": 76.54986522911051,
+      "precision": 89.58990536277602,
+      "recall": 76.54986522911051,
+      "f1": 82.55813953488372
+    }
+  },
+  "error_count": 50
+}
