@@ -5,7 +5,7 @@ from src.model import load_crf_model, predict_tags
 from src.features import sent2features
 import os
 
-# Türkçe POS Etiketlerinin Açıklamaları
+# Türkçe POS etiket açıklamaları
 POS_TR = {
     "NOUN": "İsim",
     "VERB": "Fiil",
@@ -27,12 +27,11 @@ POS_TR = {
     "O": "Diğer"
 }
 
-# Streamlit Ayarları
+# UI başlığı ve ayarlar
 st.set_page_config(page_title="Türkçe POS Tagger", page_icon="🤖", layout="centered")
 st.title("Türkçe POS Tagger Demo 🤖")
-st.write("Herhangi bir Türkçe cümle girin, kelimelerin hangi tür (POS) olduğunu görün.")
+st.write("Cümleyi olduğu gibi veriyoruz. Token yok, split yok. Sihirli bir test :)")
 
-# Modeli Yükle
 @st.cache_resource
 def load_model():
     model_path = "outputs/models/crf_final.pkl"
@@ -41,27 +40,30 @@ def load_model():
         st.stop()
     return load_crf_model(model_path)
 
-# Kullanıcıdan Giriş Al
+# Giriş
 sentence = st.text_input("Cümlenizi girin:", "")
 
-# POS Etiketleme Butonu
 if st.button("POS Tagle!") or (sentence and st.session_state.get("already_tagged") != sentence):
     st.session_state["already_tagged"] = sentence
 
     model = load_model()
 
-    # Cümleyi token–etiket çiftlerine çevir (dummy etiket "O")
-    tokens = [(word, "O") for word in sentence.strip()]
-    if not tokens:
+    if not sentence.strip():
         st.info("Lütfen bir cümle girin.")
     else:
-        features = [sent2features(tokens)]  # Tek cümlelik liste
-        predictions = predict_tags(model, features)[0]
+        try:
+            # Token yok: Tüm cümle tek 'kelime' olarak veriliyor
+            tokens = [(sentence.strip(), "O")]
+            features = [sent2features(tokens)]
+            predictions = predict_tags(model, features)[0]
 
-        display = [
-            {"Kelime": word, "Etiket": tag, "Türkçesi": POS_TR.get(tag, "-")}
-            for (word, _), tag in zip(tokens, predictions)
-        ]
+            display = [{
+                "Cümle": sentence,
+                "Etiket": predictions[0],
+                "Türkçesi": POS_TR.get(predictions[0], "-")
+            }]
 
-        st.write("### Sonuç:")
-        st.table(display)
+            st.write("### Sonuç:")
+            st.table(display)
+        except Exception as e:
+            st.error(f"Bir hata oluştu: {e}")
