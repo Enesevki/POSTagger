@@ -13,7 +13,7 @@ POS_TR = {
 
 st.set_page_config(page_title="Türkçe POS Tagger", page_icon="🤖", layout="centered")
 st.title("Türkçe POS Tagger Demo 🤖")
-st.write("Stanza ile doğru tokenizasyon ile çalışan POS Tagger.")
+st.write("Herhangi bir Türkçe cümle girin, kelimelerin hangi tür (POS) olduğunu görün.")
 
 @st.cache_resource
 def load_model():
