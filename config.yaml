@@ -1,0 +1,16 @@
+raw_excel_path:      data/raw/1600veri.xlsx
+processed_tokenized_path: data/processed/output_conll.txt
+processed_tagged_path:    data/processed/stanza_tagged_output.txt
+
+tag_counts_path:     data/final/tag_counts.json
+transition_counts_path: data/final/transition_counts.json
+transition_probs_path:   data/final/transition_probs.json
+emission_counts_path:    data/final/emission_counts.json
+emission_probs_path:     data/final/emission_probs.json
+
+sentences_path:      data/final/my_sentences.txt
+gold_path:           data/final/my_sentences_gold.txt
+viterbi_output_path: data/final/my_sentences_tagged.txt
+
+# Ekstra (pipeline ile ilişkili)
+log_level: INFO

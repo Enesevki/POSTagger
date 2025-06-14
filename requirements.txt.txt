@@ -1,5 +1,0 @@
-matplotlib
-numpy
-scikit-learn
-sklearn-crfsuite
-seaborn
