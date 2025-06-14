@@ -27,6 +27,7 @@ def load_model():
 def load_stanza():
     stanza.download("tr")  # sadece ilk sefer
     return stanza.Pipeline("tr", processors="tokenize", tokenize_no_ssplit=True)
+nlp = load_stanza()
 
 # Kullanıcı girişi
 sentence = st.text_input("Cümlenizi girin:", "")
