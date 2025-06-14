@@ -5,3 +5,4 @@ sklearn-crfsuite
 seaborn
 streamlit
 sklearn-crfsuite
+stanza
