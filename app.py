@@ -12,7 +12,7 @@ st.write("Bir cümle girin ve modelin tahmin ettiği sözcük türlerini görün
 # Modeli yükle
 @st.cache_resource
 def load_model():
-    return load_crf_model("crf_final.pkl")
+    return load_crf_model("outputs/models/crf_final.pkl")
 
 model = load_model()
 
