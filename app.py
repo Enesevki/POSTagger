@@ -33,7 +33,7 @@ st.write("Herhangi bir Türkçe cümle girin, kelimelerin hangi tür (POS) oldu�
 
 @st.cache_resource
 def load_model():
-    model_path = "crf_final.pkl"
+    model_path = "outputs/models/crf_final.pkl"
     if not os.path.exists(model_path):
         st.error(f"Model dosyası bulunamadı: {model_path}")
         st.stop()
