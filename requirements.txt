@@ -4,3 +4,4 @@ scikit-learn
 sklearn-crfsuite
 seaborn
 streamlit
+sklearn-crfsuite
