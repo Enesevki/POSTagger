@@ -5,7 +5,6 @@ from src.model import load_crf_model, predict_tags
 from src.features import sent2features
 import os
 
-# Türkçe POS etiket açıklamaları
 POS_TR = {
     "NOUN": "İsim",
     "VERB": "Fiil",
@@ -27,10 +26,9 @@ POS_TR = {
     "O": "Diğer"
 }
 
-# UI başlığı ve ayarlar
 st.set_page_config(page_title="Türkçe POS Tagger", page_icon="🤖", layout="centered")
 st.title("Türkçe POS Tagger Demo 🤖")
-st.write("Cümleyi olduğu gibi veriyoruz. Token yok, split yok. Sihirli bir test :)")
+st.write("Herhangi bir Türkçe cümle girin, kelimelerin hangi tür (POS) olduğunu görün.")
 
 @st.cache_resource
 def load_model():
@@ -40,7 +38,6 @@ def load_model():
         st.stop()
     return load_crf_model(model_path)
 
-# Giriş
 sentence = st.text_input("Cümlenizi girin:", "")
 
 if st.button("POS Tagle!") or (sentence and st.session_state.get("already_tagged") != sentence):
@@ -48,22 +45,17 @@ if st.button("POS Tagle!") or (sentence and st.session_state.get("already_tagged
 
     model = load_model()
 
-    if not sentence.strip():
+    tokens = [(word, "O") for word in sentence.strip().split()]
+    if not tokens:
         st.info("Lütfen bir cümle girin.")
     else:
-        try:
-            # Token yok: Tüm cümle tek 'kelime' olarak veriliyor
-            tokens = [(sentence.strip(), "O")]
-            features = [sent2features(tokens)]
-            predictions = predict_tags(model, features)[0]
+        features = [sent2features(tokens)]
+        predictions = predict_tags(model, features)[0]
 
-            display = [{
-                "Cümle": sentence,
-                "Etiket": predictions[0],
-                "Türkçesi": POS_TR.get(predictions[0], "-")
-            }]
+        display = [
+            {"Kelime": word, "Etiket": tag, "Türkçesi": POS_TR.get(tag, "-")}
+            for (word, _), tag in zip(tokens, predictions)
+        ]
 
-            st.write("### Sonuç:")
-            st.table(display)
-        except Exception as e:
-            st.error(f"Bir hata oluştu: {e}")
+        st.write("### Sonuç:")
+        st.table(display)
