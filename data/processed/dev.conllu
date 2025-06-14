@@ -1,0 +1,2151 @@
+# sent_id = 1
+# text = Ahmet Hocanın verdiği bu haber , bütün sınıfı sevince boğdu .
+1	Ahmet	Ahmet	PROPN	_	_	0	root	_	_
+2	Hocanın	Hocanın	PROPN	_	_	0	root	_	_
+3	verdiği	verdiği	VERB	_	_	0	root	_	_
+4	bu	bu	DET	_	_	0	root	_	_
+5	haber	haber	NOUN	_	_	0	root	_	_
+6	,	,	PUNCT	_	_	0	root	_	_
+7	bütün	bütün	ADJ	_	_	0	root	_	_
+8	sınıfı	sınıfı	NOUN	_	_	0	root	_	_
+9	sevince	sevince	NOUN	_	_	0	root	_	_
+10	boğdu	boğdu	VERB	_	_	0	root	_	_
+11	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 2
+# text = Yurt odamızın duvarlarında ki rengi çok beğeniyoru m
+1	Yurt	Yurt	NOUN	_	_	0	root	_	_
+2	odamızın	odamızın	NOUN	_	_	0	root	_	_
+3	duvarlarında	duvarlarında	NOUN	_	_	0	root	_	_
+4	ki	ki	ADP	_	_	0	root	_	_
+5	rengi	rengi	NOUN	_	_	0	root	_	_
+6	çok	çok	ADV	_	_	0	root	_	_
+7	beğeniyoru	beğeniyoru	VERB	_	_	0	root	_	_
+8	m	m	NOUN	_	_	0	root	_	_
+
+# sent_id = 3
+# text = Yazılım yazdıkça alınan haz genelde artıyor .
+1	Yazılım	Yazılım	NOUN	_	_	0	root	_	_
+2	yazdıkça	yazdıkça	VERB	_	_	0	root	_	_
+3	alınan	alınan	VERB	_	_	0	root	_	_
+4	haz	haz	NOUN	_	_	0	root	_	_
+5	genelde	genelde	ADV	_	_	0	root	_	_
+6	artıyor	artıyor	VERB	_	_	0	root	_	_
+7	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 4
+# text = Bana sorarsan bu problemi öğretmen dahi çözemez
+1	Bana	Bana	PRON	_	_	0	root	_	_
+2	sorarsan	sorarsan	VERB	_	_	0	root	_	_
+3	bu	bu	DET	_	_	0	root	_	_
+4	problemi	problemi	NOUN	_	_	0	root	_	_
+5	öğretmen	öğretmen	NOUN	_	_	0	root	_	_
+6	dahi	dahi	ADJ	_	_	0	root	_	_
+7	çözemez	çözemez	VERB	_	_	0	root	_	_
+
+# sent_id = 5
+# text = Etrafında ki güzelliklere odaklan , hayat daha keyif li olur .
+1	Etrafında	Etrafında	NOUN	_	_	0	root	_	_
+2	ki	ki	ADP	_	_	0	root	_	_
+3	güzelliklere	güzelliklere	NOUN	_	_	0	root	_	_
+4	odaklan	odaklan	VERB	_	_	0	root	_	_
+5	,	,	PUNCT	_	_	0	root	_	_
+6	hayat	hayat	NOUN	_	_	0	root	_	_
+7	daha	daha	ADV	_	_	0	root	_	_
+8	keyif	keyif	NOUN	_	_	0	root	_	_
+9	li	li	ADP	_	_	0	root	_	_
+10	olur	olur	VERB	_	_	0	root	_	_
+11	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 6
+# text = Sanki bu bütün bu yaşanılmış olan olayların hepsinin sorumlusu benim !
+1	Sanki	Sanki	ADV	_	_	0	root	_	_
+2	bu	bu	DET	_	_	0	root	_	_
+3	bütün	bütün	ADJ	_	_	0	root	_	_
+4	bu	bu	DET	_	_	0	root	_	_
+5	yaşanılmış	yaşanılmış	VERB	_	_	0	root	_	_
+6	olan	olan	VERB	_	_	0	root	_	_
+7	olayların	olayların	NOUN	_	_	0	root	_	_
+8	hepsinin	hepsinin	PRON	_	_	0	root	_	_
+9	sorumlusu	sorumlusu	NOUN	_	_	0	root	_	_
+10	benim	benim	PRON	_	_	0	root	_	_
+11	!	!	PUNCT	_	_	0	root	_	_
+
+# sent_id = 7
+# text = Beni dinlememesi gerçekten çok kırıcı ydı ve üzüldüm .
+1	Beni	Beni	PRON	_	_	0	root	_	_
+2	dinlememesi	dinlememesi	VERB	_	_	0	root	_	_
+3	gerçekten	gerçekten	ADV	_	_	0	root	_	_
+4	çok	çok	ADV	_	_	0	root	_	_
+5	kırıcı	kırıcı	ADJ	_	_	0	root	_	_
+6	ydı	ydı	AUX	_	_	0	root	_	_
+7	ve	ve	CCONJ	_	_	0	root	_	_
+8	üzüldüm	üzüldüm	VERB	_	_	0	root	_	_
+9	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 8
+# text = Oynadığı kumarda son anda kaybedince kendini dünyanın en şanssız insanı ymış gibi hissetti .
+1	Oynadığı	Oynadığı	VERB	_	_	0	root	_	_
+2	kumarda	kumarda	NOUN	_	_	0	root	_	_
+3	son	son	ADJ	_	_	0	root	_	_
+4	anda	anda	NOUN	_	_	0	root	_	_
+5	kaybedince	kaybedince	VERB	_	_	0	root	_	_
+6	kendini	kendini	PRON	_	_	0	root	_	_
+7	dünyanın	dünyanın	NOUN	_	_	0	root	_	_
+8	en	en	ADV	_	_	0	root	_	_
+9	şanssız	şanssız	ADJ	_	_	0	root	_	_
+10	insanı	insanı	NOUN	_	_	0	root	_	_
+11	ymış	ymış	AUX	_	_	0	root	_	_
+12	gibi	gibi	ADP	_	_	0	root	_	_
+13	hissetti	hissetti	VERB	_	_	0	root	_	_
+14	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 9
+# text = Hatalarımın bedelini bu kadar ağır ödemek gerçekten haksızlık .
+1	Hatalarımın	Hatalarımın	NOUN	_	_	0	root	_	_
+2	bedelini	bedelini	NOUN	_	_	0	root	_	_
+3	bu	bu	PRON	_	_	0	root	_	_
+4	kadar	kadar	ADP	_	_	0	root	_	_
+5	ağır	ağır	ADJ	_	_	0	root	_	_
+6	ödemek	ödemek	VERB	_	_	0	root	_	_
+7	gerçekten	gerçekten	ADV	_	_	0	root	_	_
+8	haksızlık	haksızlık	NOUN	_	_	0	root	_	_
+9	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 10
+# text = Bir gülüş , dünyayı değiştirir .
+1	Bir	Bir	DET	_	_	0	root	_	_
+2	gülüş	gülüş	NOUN	_	_	0	root	_	_
+3	,	,	PUNCT	_	_	0	root	_	_
+4	dünyayı	dünyayı	NOUN	_	_	0	root	_	_
+5	değiştirir	değiştirir	VERB	_	_	0	root	_	_
+6	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 11
+# text = Kardeşim ders çalışırken beni sürekli rahatsız ediyor , konularımı yetiştirmekte zorlanıyorum .
+1	Kardeşim	Kardeşim	NOUN	_	_	0	root	_	_
+2	ders	ders	NOUN	_	_	0	root	_	_
+3	çalışırken	çalışırken	VERB	_	_	0	root	_	_
+4	beni	beni	PRON	_	_	0	root	_	_
+5	sürekli	sürekli	ADV	_	_	0	root	_	_
+6	rahatsız	rahatsız	ADJ	_	_	0	root	_	_
+7	ediyor	ediyor	VERB	_	_	0	root	_	_
+8	,	,	PUNCT	_	_	0	root	_	_
+9	konularımı	konularımı	NOUN	_	_	0	root	_	_
+10	yetiştirmekte	yetiştirmekte	VERB	_	_	0	root	_	_
+11	zorlanıyorum	zorlanıyorum	VERB	_	_	0	root	_	_
+12	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 12
+# text = Onun şu güne kadar yapmış olduğu en güzel yemek bu ydu .
+1	Onun	Onun	PRON	_	_	0	root	_	_
+2	şu	şu	DET	_	_	0	root	_	_
+3	güne	güne	NOUN	_	_	0	root	_	_
+4	kadar	kadar	ADP	_	_	0	root	_	_
+5	yapmış	yapmış	VERB	_	_	0	root	_	_
+6	olduğu	olduğu	VERB	_	_	0	root	_	_
+7	en	en	ADV	_	_	0	root	_	_
+8	güzel	güzel	ADJ	_	_	0	root	_	_
+9	yemek	yemek	NOUN	_	_	0	root	_	_
+10	bu	bu	PRON	_	_	0	root	_	_
+11	ydu	ydu	AUX	_	_	0	root	_	_
+12	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 13
+# text = Bilim müzesine gittiğim ilk gün benim için sihirli ydi
+1	Bilim	Bilim	NOUN	_	_	0	root	_	_
+2	müzesine	müzesine	NOUN	_	_	0	root	_	_
+3	gittiğim	gittiğim	VERB	_	_	0	root	_	_
+4	ilk	ilk	ADJ	_	_	0	root	_	_
+5	gün	gün	NOUN	_	_	0	root	_	_
+6	benim	benim	PRON	_	_	0	root	_	_
+7	için	için	ADP	_	_	0	root	_	_
+8	sihirli	sihirli	ADJ	_	_	0	root	_	_
+9	ydi	ydi	AUX	_	_	0	root	_	_
+
+# sent_id = 14
+# text = Başarısızlık acıtıyor ve kendimi değersiz hissediyorum .
+1	Başarısızlık	Başarısızlık	NOUN	_	_	0	root	_	_
+2	acıtıyor	acıtıyor	VERB	_	_	0	root	_	_
+3	ve	ve	CCONJ	_	_	0	root	_	_
+4	kendimi	kendimi	PRON	_	_	0	root	_	_
+5	değersiz	değersiz	ADJ	_	_	0	root	_	_
+6	hissediyorum	hissediyorum	VERB	_	_	0	root	_	_
+7	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 15
+# text = Mutluluk , içimizde saklı bir cevher dir .
+1	Mutluluk	Mutluluk	NOUN	_	_	0	root	_	_
+2	,	,	PUNCT	_	_	0	root	_	_
+3	içimizde	içimizde	ADJ	_	_	0	root	_	_
+4	saklı	saklı	ADJ	_	_	0	root	_	_
+5	bir	bir	DET	_	_	0	root	_	_
+6	cevher	cevher	NOUN	_	_	0	root	_	_
+7	dir	dir	AUX	_	_	0	root	_	_
+8	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 16
+# text = Kaç yaşında olduğumuz önemsiz ancak yaşlılığın iyi bir şey olduğunu da söyleyemem .
+1	Kaç	Kaç	NUM	_	_	0	root	_	_
+2	yaşında	yaşında	NOUN	_	_	0	root	_	_
+3	olduğumuz	olduğumuz	VERB	_	_	0	root	_	_
+4	önemsiz	önemsiz	ADJ	_	_	0	root	_	_
+5	ancak	ancak	CCONJ	_	_	0	root	_	_
+6	yaşlılığın	yaşlılığın	NOUN	_	_	0	root	_	_
+7	iyi	iyi	ADJ	_	_	0	root	_	_
+8	bir	bir	NUM	_	_	0	root	_	_
+9	şey	şey	NOUN	_	_	0	root	_	_
+10	olduğunu	olduğunu	VERB	_	_	0	root	_	_
+11	da	da	CCONJ	_	_	0	root	_	_
+12	söyleyemem	söyleyemem	VERB	_	_	0	root	_	_
+13	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 17
+# text = Akşam yemeğinde annemin yaptığı çorba çok lezzetli ydi .
+1	Akşam	Akşam	NOUN	_	_	0	root	_	_
+2	yemeğinde	yemeğinde	NOUN	_	_	0	root	_	_
+3	annemin	annemin	NOUN	_	_	0	root	_	_
+4	yaptığı	yaptığı	VERB	_	_	0	root	_	_
+5	çorba	çorba	NOUN	_	_	0	root	_	_
+6	çok	çok	ADV	_	_	0	root	_	_
+7	lezzetli	lezzetli	ADJ	_	_	0	root	_	_
+8	ydi	ydi	AUX	_	_	0	root	_	_
+9	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 18
+# text = Destek eksikliği beni çok yıpratıyor ve yalnız hissettiriyor .
+1	Destek	Destek	NOUN	_	_	0	root	_	_
+2	eksikliği	eksikliği	NOUN	_	_	0	root	_	_
+3	beni	beni	PRON	_	_	0	root	_	_
+4	çok	çok	ADV	_	_	0	root	_	_
+5	yıpratıyor	yıpratıyor	VERB	_	_	0	root	_	_
+6	ve	ve	CCONJ	_	_	0	root	_	_
+7	yalnız	yalnız	ADV	_	_	0	root	_	_
+8	hissettiriyor	hissettiriyor	VERB	_	_	0	root	_	_
+9	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 19
+# text = Başarı için ilk adım , hayal etmek tir .
+1	Başarı	Başarı	NOUN	_	_	0	root	_	_
+2	için	için	ADP	_	_	0	root	_	_
+3	ilk	ilk	ADJ	_	_	0	root	_	_
+4	adım	adım	NOUN	_	_	0	root	_	_
+5	,	,	PUNCT	_	_	0	root	_	_
+6	hayal	hayal	NOUN	_	_	0	root	_	_
+7	etmek	etmek	VERB	_	_	0	root	_	_
+8	tir	tir	AUX	_	_	0	root	_	_
+9	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 20
+# text = Zamanında ilgilendiği felç hastasının şu anda yürüyebiliyor olduğu gördüğünde mutluluktan göz yaşlarını tutamadı .
+1	Zamanında	Zamanında	NOUN	_	_	0	root	_	_
+2	ilgilendiği	ilgilendiği	VERB	_	_	0	root	_	_
+3	felç	felç	NOUN	_	_	0	root	_	_
+4	hastasının	hastasının	NOUN	_	_	0	root	_	_
+5	şu	şu	DET	_	_	0	root	_	_
+6	anda	anda	NOUN	_	_	0	root	_	_
+7	yürüyebiliyor	yürüyebiliyor	VERB	_	_	0	root	_	_
+8	olduğu	olduğu	VERB	_	_	0	root	_	_
+9	gördüğünde	gördüğünde	VERB	_	_	0	root	_	_
+10	mutluluktan	mutluluktan	NOUN	_	_	0	root	_	_
+11	göz	göz	NOUN	_	_	0	root	_	_
+12	yaşlarını	yaşlarını	NOUN	_	_	0	root	_	_
+13	tutamadı	tutamadı	VERB	_	_	0	root	_	_
+14	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 21
+# text = Öğretmeni çok gayret li olduğunu söyledi
+1	Öğretmeni	Öğretmeni	NOUN	_	_	0	root	_	_
+2	çok	çok	ADV	_	_	0	root	_	_
+3	gayret	gayret	NOUN	_	_	0	root	_	_
+4	li	li	ADP	_	_	0	root	_	_
+5	olduğunu	olduğunu	VERB	_	_	0	root	_	_
+6	söyledi	söyledi	VERB	_	_	0	root	_	_
+
+# sent_id = 22
+# text = Malzeme kalitesi bu kadar berbat olan bir ürünü daha önce hiçbir yerde görmedim .
+1	Malzeme	Malzeme	NOUN	_	_	0	root	_	_
+2	kalitesi	kalitesi	NOUN	_	_	0	root	_	_
+3	bu	bu	DET	_	_	0	root	_	_
+4	kadar	kadar	ADP	_	_	0	root	_	_
+5	berbat	berbat	ADJ	_	_	0	root	_	_
+6	olan	olan	VERB	_	_	0	root	_	_
+7	bir	bir	DET	_	_	0	root	_	_
+8	ürünü	ürünü	NOUN	_	_	0	root	_	_
+9	daha	daha	ADV	_	_	0	root	_	_
+10	önce	önce	ADV	_	_	0	root	_	_
+11	hiçbir	hiçbir	DET	_	_	0	root	_	_
+12	yerde	yerde	NOUN	_	_	0	root	_	_
+13	görmedim	görmedim	VERB	_	_	0	root	_	_
+14	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 23
+# text = Yalnızca her türlü kişisel farkındalığın dışlandığı düşüncelere saldırırım .
+1	Yalnızca	Yalnızca	ADV	_	_	0	root	_	_
+2	her	her	DET	_	_	0	root	_	_
+3	türlü	türlü	ADJ	_	_	0	root	_	_
+4	kişisel	kişisel	ADJ	_	_	0	root	_	_
+5	farkındalığın	farkındalığın	NOUN	_	_	0	root	_	_
+6	dışlandığı	dışlandığı	VERB	_	_	0	root	_	_
+7	düşüncelere	düşüncelere	NOUN	_	_	0	root	_	_
+8	saldırırım	saldırırım	VERB	_	_	0	root	_	_
+9	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 24
+# text = Hayati fonksiyonlarında ciddi bir yükseliş görmek doktoru heyecanlandırdı .
+1	Hayati	Hayati	NOUN	_	_	0	root	_	_
+2	fonksiyonlarında	fonksiyonlarında	NOUN	_	_	0	root	_	_
+3	ciddi	ciddi	ADJ	_	_	0	root	_	_
+4	bir	bir	DET	_	_	0	root	_	_
+5	yükseliş	yükseliş	NOUN	_	_	0	root	_	_
+6	görmek	görmek	VERB	_	_	0	root	_	_
+7	doktoru	doktoru	NOUN	_	_	0	root	_	_
+8	heyecanlandırdı	heyecanlandırdı	VERB	_	_	0	root	_	_
+9	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 25
+# text = Doğa , bize huzur verir .
+1	Doğa	Doğa	NOUN	_	_	0	root	_	_
+2	,	,	PUNCT	_	_	0	root	_	_
+3	bize	bize	PRON	_	_	0	root	_	_
+4	huzur	huzur	NOUN	_	_	0	root	_	_
+5	verir	verir	VERB	_	_	0	root	_	_
+6	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 26
+# text = Etrafımda ki insanlar sürekli şikayet ediyor ve bu beni çok rahatsız ediyor .
+1	Etrafımda	Etrafımda	NOUN	_	_	0	root	_	_
+2	ki	ki	ADP	_	_	0	root	_	_
+3	insanlar	insanlar	NOUN	_	_	0	root	_	_
+4	sürekli	sürekli	ADV	_	_	0	root	_	_
+5	şikayet	şikayet	NOUN	_	_	0	root	_	_
+6	ediyor	ediyor	VERB	_	_	0	root	_	_
+7	ve	ve	CCONJ	_	_	0	root	_	_
+8	bu	bu	PRON	_	_	0	root	_	_
+9	beni	beni	PRON	_	_	0	root	_	_
+10	çok	çok	ADV	_	_	0	root	_	_
+11	rahatsız	rahatsız	ADJ	_	_	0	root	_	_
+12	ediyor	ediyor	VERB	_	_	0	root	_	_
+13	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 27
+# text = Film şirketi , son filmi ile elinde ki markayı ne kadar doğru kullanmış .
+1	Film	Film	NOUN	_	_	0	root	_	_
+2	şirketi	şirketi	NOUN	_	_	0	root	_	_
+3	,	,	PUNCT	_	_	0	root	_	_
+4	son	son	ADJ	_	_	0	root	_	_
+5	filmi	filmi	NOUN	_	_	0	root	_	_
+6	ile	ile	CCONJ	_	_	0	root	_	_
+7	elinde	elinde	NOUN	_	_	0	root	_	_
+8	ki	ki	ADP	_	_	0	root	_	_
+9	markayı	markayı	NOUN	_	_	0	root	_	_
+10	ne	ne	PRON	_	_	0	root	_	_
+11	kadar	kadar	ADP	_	_	0	root	_	_
+12	doğru	doğru	ADJ	_	_	0	root	_	_
+13	kullanmış	kullanmış	VERB	_	_	0	root	_	_
+14	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 28
+# text = Karanlıkta gürleyen şelalenin içime huzur doldurması ben fazlasıyla mest ediyor .
+1	Karanlıkta	Karanlıkta	NOUN	_	_	0	root	_	_
+2	gürleyen	gürleyen	VERB	_	_	0	root	_	_
+3	şelalenin	şelalenin	NOUN	_	_	0	root	_	_
+4	içime	içime	ADJ	_	_	0	root	_	_
+5	huzur	huzur	NOUN	_	_	0	root	_	_
+6	doldurması	doldurması	VERB	_	_	0	root	_	_
+7	ben	ben	PRON	_	_	0	root	_	_
+8	fazlasıyla	fazlasıyla	ADV	_	_	0	root	_	_
+9	mest	mest	NOUN	_	_	0	root	_	_
+10	ediyor	ediyor	VERB	_	_	0	root	_	_
+11	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 29
+# text = Bugün alışverişte sevdiğim kıyafeti indirimde buldum .
+1	Bugün	Bugün	NOUN	_	_	0	root	_	_
+2	alışverişte	alışverişte	NOUN	_	_	0	root	_	_
+3	sevdiğim	sevdiğim	VERB	_	_	0	root	_	_
+4	kıyafeti	kıyafeti	NOUN	_	_	0	root	_	_
+5	indirimde	indirimde	NOUN	_	_	0	root	_	_
+6	buldum	buldum	VERB	_	_	0	root	_	_
+7	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 30
+# text = İnternetim olmadığı için ödevimi yetiştiremedi m
+1	İnternetim	İnternetim	NOUN	_	_	0	root	_	_
+2	olmadığı	olmadığı	VERB	_	_	0	root	_	_
+3	için	için	ADP	_	_	0	root	_	_
+4	ödevimi	ödevimi	NOUN	_	_	0	root	_	_
+5	yetiştiremedi	yetiştiremedi	VERB	_	_	0	root	_	_
+6	m	m	NOUN	_	_	0	root	_	_
+
+# sent_id = 31
+# text = Yeni aldığım kıyafet tam istediğim gibi ydi .
+1	Yeni	Yeni	ADJ	_	_	0	root	_	_
+2	aldığım	aldığım	VERB	_	_	0	root	_	_
+3	kıyafet	kıyafet	NOUN	_	_	0	root	_	_
+4	tam	tam	ADJ	_	_	0	root	_	_
+5	istediğim	istediğim	VERB	_	_	0	root	_	_
+6	gibi	gibi	ADP	_	_	0	root	_	_
+7	ydi	ydi	AUX	_	_	0	root	_	_
+8	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 32
+# text = Mahallede ki çocuklar okullarının bahçesine park yapıldığı için çok sevinçli görünüyorlar .
+1	Mahallede	Mahallede	NOUN	_	_	0	root	_	_
+2	ki	ki	ADP	_	_	0	root	_	_
+3	çocuklar	çocuklar	NOUN	_	_	0	root	_	_
+4	okullarının	okullarının	NOUN	_	_	0	root	_	_
+5	bahçesine	bahçesine	NOUN	_	_	0	root	_	_
+6	park	park	NOUN	_	_	0	root	_	_
+7	yapıldığı	yapıldığı	VERB	_	_	0	root	_	_
+8	için	için	ADP	_	_	0	root	_	_
+9	çok	çok	ADV	_	_	0	root	_	_
+10	sevinçli	sevinçli	ADJ	_	_	0	root	_	_
+11	görünüyorlar	görünüyorlar	VERB	_	_	0	root	_	_
+12	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 33
+# text = Müziğin ilk notalarında kendini kaybediyor , büyük bir zevkle dans etmeye başlıyor .
+1	Müziğin	Müziğin	NOUN	_	_	0	root	_	_
+2	ilk	ilk	ADJ	_	_	0	root	_	_
+3	notalarında	notalarında	NOUN	_	_	0	root	_	_
+4	kendini	kendini	PRON	_	_	0	root	_	_
+5	kaybediyor	kaybediyor	VERB	_	_	0	root	_	_
+6	,	,	PUNCT	_	_	0	root	_	_
+7	büyük	büyük	ADJ	_	_	0	root	_	_
+8	bir	bir	DET	_	_	0	root	_	_
+9	zevkle	zevkle	NOUN	_	_	0	root	_	_
+10	dans	dans	NOUN	_	_	0	root	_	_
+11	etmeye	etmeye	VERB	_	_	0	root	_	_
+12	başlıyor	başlıyor	VERB	_	_	0	root	_	_
+13	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 34
+# text = Konserde en sevdiğim sanatçıyla beraber şarkı söylerken kalbim duracak gibi ydi .
+1	Konserde	Konserde	NOUN	_	_	0	root	_	_
+2	en	en	ADV	_	_	0	root	_	_
+3	sevdiğim	sevdiğim	VERB	_	_	0	root	_	_
+4	sanatçıyla	sanatçıyla	NOUN	_	_	0	root	_	_
+5	beraber	beraber	ADV	_	_	0	root	_	_
+6	şarkı	şarkı	NOUN	_	_	0	root	_	_
+7	söylerken	söylerken	VERB	_	_	0	root	_	_
+8	kalbim	kalbim	ADJ	_	_	0	root	_	_
+9	duracak	duracak	VERB	_	_	0	root	_	_
+10	gibi	gibi	ADP	_	_	0	root	_	_
+11	ydi	ydi	AUX	_	_	0	root	_	_
+12	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 35
+# text = Yağmur altında yürürken hissettiğim huzur , şemsiyem olmamasına rağmen içimde beliren sıcak bir hisle açıklanabilir gibi görünüyor .
+1	Yağmur	Yağmur	NOUN	_	_	0	root	_	_
+2	altında	altında	ADJ	_	_	0	root	_	_
+3	yürürken	yürürken	VERB	_	_	0	root	_	_
+4	hissettiğim	hissettiğim	VERB	_	_	0	root	_	_
+5	huzur	huzur	NOUN	_	_	0	root	_	_
+6	,	,	PUNCT	_	_	0	root	_	_
+7	şemsiyem	şemsiyem	NOUN	_	_	0	root	_	_
+8	olmamasına	olmamasına	VERB	_	_	0	root	_	_
+9	rağmen	rağmen	ADP	_	_	0	root	_	_
+10	içimde	içimde	ADJ	_	_	0	root	_	_
+11	beliren	beliren	VERB	_	_	0	root	_	_
+12	sıcak	sıcak	ADJ	_	_	0	root	_	_
+13	bir	bir	DET	_	_	0	root	_	_
+14	hisle	hisle	NOUN	_	_	0	root	_	_
+15	açıklanabilir	açıklanabilir	VERB	_	_	0	root	_	_
+16	gibi	gibi	ADP	_	_	0	root	_	_
+17	görünüyor	görünüyor	VERB	_	_	0	root	_	_
+18	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 36
+# text = İzleyiciler tiyatroyu beğenmedi .
+1	İzleyiciler	İzleyiciler	NOUN	_	_	0	root	_	_
+2	tiyatroyu	tiyatroyu	NOUN	_	_	0	root	_	_
+3	beğenmedi	beğenmedi	VERB	_	_	0	root	_	_
+4	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 37
+# text = Senin gelmeni istemiyorum .
+1	Senin	Senin	PRON	_	_	0	root	_	_
+2	gelmeni	gelmeni	VERB	_	_	0	root	_	_
+3	istemiyorum	istemiyorum	VERB	_	_	0	root	_	_
+4	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 38
+# text = Yemekler enfes olmuş .
+1	Yemekler	Yemekler	NOUN	_	_	0	root	_	_
+2	enfes	enfes	ADJ	_	_	0	root	_	_
+3	olmuş	olmuş	VERB	_	_	0	root	_	_
+4	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 39
+# text = İnsanların kendini üstün görmesinden , yalan söylemelerinden ve saçmasapan hareketlerinden nefret ediyorum .
+1	İnsanların	İnsanların	NOUN	_	_	0	root	_	_
+2	kendini	kendini	PRON	_	_	0	root	_	_
+3	üstün	üstün	ADJ	_	_	0	root	_	_
+4	görmesinden	görmesinden	VERB	_	_	0	root	_	_
+5	,	,	PUNCT	_	_	0	root	_	_
+6	yalan	yalan	ADJ	_	_	0	root	_	_
+7	söylemelerinden	söylemelerinden	VERB	_	_	0	root	_	_
+8	ve	ve	CCONJ	_	_	0	root	_	_
+9	saçmasapan	saçmasapan	ADJ	_	_	0	root	_	_
+10	hareketlerinden	hareketlerinden	NOUN	_	_	0	root	_	_
+11	nefret	nefret	NOUN	_	_	0	root	_	_
+12	ediyorum	ediyorum	VERB	_	_	0	root	_	_
+13	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 40
+# text = Yeni aldığım bilgisayarın performansı beklediğimden çok daha kötü çıktı .
+1	Yeni	Yeni	ADJ	_	_	0	root	_	_
+2	aldığım	aldığım	VERB	_	_	0	root	_	_
+3	bilgisayarın	bilgisayarın	NOUN	_	_	0	root	_	_
+4	performansı	performansı	NOUN	_	_	0	root	_	_
+5	beklediğimden	beklediğimden	VERB	_	_	0	root	_	_
+6	çok	çok	ADV	_	_	0	root	_	_
+7	daha	daha	ADV	_	_	0	root	_	_
+8	kötü	kötü	ADJ	_	_	0	root	_	_
+9	çıktı	çıktı	VERB	_	_	0	root	_	_
+10	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 41
+# text = Artık burada yaşamak istemiyoru m
+1	Artık	Artık	ADV	_	_	0	root	_	_
+2	burada	burada	NOUN	_	_	0	root	_	_
+3	yaşamak	yaşamak	VERB	_	_	0	root	_	_
+4	istemiyoru	istemiyoru	VERB	_	_	0	root	_	_
+5	m	m	NOUN	_	_	0	root	_	_
+
+# sent_id = 42
+# text = Babası karne hediyesi olarak çok istediği bisikletini aldığını öğrenince keyfi yerine geldi .
+1	Babası	Babası	NOUN	_	_	0	root	_	_
+2	karne	karne	NOUN	_	_	0	root	_	_
+3	hediyesi	hediyesi	NOUN	_	_	0	root	_	_
+4	olarak	olarak	ADP	_	_	0	root	_	_
+5	çok	çok	ADV	_	_	0	root	_	_
+6	istediği	istediği	VERB	_	_	0	root	_	_
+7	bisikletini	bisikletini	NOUN	_	_	0	root	_	_
+8	aldığını	aldığını	VERB	_	_	0	root	_	_
+9	öğrenince	öğrenince	VERB	_	_	0	root	_	_
+10	keyfi	keyfi	NOUN	_	_	0	root	_	_
+11	yerine	yerine	NOUN	_	_	0	root	_	_
+12	geldi	geldi	VERB	_	_	0	root	_	_
+13	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 43
+# text = Yeni aldığım masa lambasının tasarımını çok beğendim , ancak ışığının çok yetersiz olduğunu fark edince kullanışsız olduğunu anladım .
+1	Yeni	Yeni	ADJ	_	_	0	root	_	_
+2	aldığım	aldığım	VERB	_	_	0	root	_	_
+3	masa	masa	NOUN	_	_	0	root	_	_
+4	lambasının	lambasının	NOUN	_	_	0	root	_	_
+5	tasarımını	tasarımını	NOUN	_	_	0	root	_	_
+6	çok	çok	ADV	_	_	0	root	_	_
+7	beğendim	beğendim	VERB	_	_	0	root	_	_
+8	,	,	PUNCT	_	_	0	root	_	_
+9	ancak	ancak	ADV	_	_	0	root	_	_
+10	ışığının	ışığının	NOUN	_	_	0	root	_	_
+11	çok	çok	ADV	_	_	0	root	_	_
+12	yetersiz	yetersiz	ADJ	_	_	0	root	_	_
+13	olduğunu	olduğunu	VERB	_	_	0	root	_	_
+14	fark	fark	NOUN	_	_	0	root	_	_
+15	edince	edince	VERB	_	_	0	root	_	_
+16	kullanışsız	kullanışsız	ADJ	_	_	0	root	_	_
+17	olduğunu	olduğunu	VERB	_	_	0	root	_	_
+18	anladım	anladım	VERB	_	_	0	root	_	_
+19	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 44
+# text = Bu kadar büyük bir hayal kırıklığını beklemiyordum ve çok üzüldüm .
+1	Bu	Bu	PRON	_	_	0	root	_	_
+2	kadar	kadar	ADP	_	_	0	root	_	_
+3	büyük	büyük	ADJ	_	_	0	root	_	_
+4	bir	bir	DET	_	_	0	root	_	_
+5	hayal	hayal	NOUN	_	_	0	root	_	_
+6	kırıklığını	kırıklığını	NOUN	_	_	0	root	_	_
+7	beklemiyordum	beklemiyordum	VERB	_	_	0	root	_	_
+8	ve	ve	CCONJ	_	_	0	root	_	_
+9	çok	çok	ADV	_	_	0	root	_	_
+10	üzüldüm	üzüldüm	VERB	_	_	0	root	_	_
+11	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 45
+# text = Dolaba kalkıp baktığımda evde içilebilecek bir tane bile içecek yok tu .
+1	Dolaba	Dolaba	NOUN	_	_	0	root	_	_
+2	kalkıp	kalkıp	VERB	_	_	0	root	_	_
+3	baktığımda	baktığımda	VERB	_	_	0	root	_	_
+4	evde	evde	NOUN	_	_	0	root	_	_
+5	içilebilecek	içilebilecek	VERB	_	_	0	root	_	_
+6	bir	bir	DET	_	_	0	root	_	_
+7	tane	tane	NOUN	_	_	0	root	_	_
+8	bile	bile	ADV	_	_	0	root	_	_
+9	içecek	içecek	NOUN	_	_	0	root	_	_
+10	yok	yok	ADV	_	_	0	root	_	_
+11	tu	tu	AUX	_	_	0	root	_	_
+12	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 46
+# text = Ona güvenmemin hata olduğunu söylediğinde seni dinlemeli ydim .
+1	Ona	Ona	PRON	_	_	0	root	_	_
+2	güvenmemin	güvenmemin	VERB	_	_	0	root	_	_
+3	hata	hata	NOUN	_	_	0	root	_	_
+4	olduğunu	olduğunu	VERB	_	_	0	root	_	_
+5	söylediğinde	söylediğinde	VERB	_	_	0	root	_	_
+6	seni	seni	PRON	_	_	0	root	_	_
+7	dinlemeli	dinlemeli	VERB	_	_	0	root	_	_
+8	ydim	ydim	AUX	_	_	0	root	_	_
+9	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 47
+# text = Tatlı bir melodi ruhunu besler .
+1	Tatlı	Tatlı	ADJ	_	_	0	root	_	_
+2	bir	bir	DET	_	_	0	root	_	_
+3	melodi	melodi	NOUN	_	_	0	root	_	_
+4	ruhunu	ruhunu	NOUN	_	_	0	root	_	_
+5	besler	besler	VERB	_	_	0	root	_	_
+6	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 48
+# text = Araba ile yolda giderken benzin bitti ve in cin top oynayan yerde yolda kaldık .
+1	Araba	Araba	NOUN	_	_	0	root	_	_
+2	ile	ile	CCONJ	_	_	0	root	_	_
+3	yolda	yolda	NOUN	_	_	0	root	_	_
+4	giderken	giderken	VERB	_	_	0	root	_	_
+5	benzin	benzin	NOUN	_	_	0	root	_	_
+6	bitti	bitti	VERB	_	_	0	root	_	_
+7	ve	ve	CCONJ	_	_	0	root	_	_
+8	in	in	NOUN	_	_	0	root	_	_
+9	cin	cin	NOUN	_	_	0	root	_	_
+10	top	top	NOUN	_	_	0	root	_	_
+11	oynayan	oynayan	VERB	_	_	0	root	_	_
+12	yerde	yerde	NOUN	_	_	0	root	_	_
+13	yolda	yolda	NOUN	_	_	0	root	_	_
+14	kaldık	kaldık	VERB	_	_	0	root	_	_
+15	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 49
+# text = Kozmozun korkut ucu karanlığında yavaş yavaş ölümümüze ilerliyoruz .
+1	Kozmozun	Kozmozun	NOUN	_	_	0	root	_	_
+2	korkut	korkut	NOUN	_	_	0	root	_	_
+3	ucu	ucu	ADP	_	_	0	root	_	_
+4	karanlığında	karanlığında	NOUN	_	_	0	root	_	_
+5	yavaş	yavaş	ADJ	_	_	0	root	_	_
+6	yavaş	yavaş	ADJ	_	_	0	root	_	_
+7	ölümümüze	ölümümüze	NOUN	_	_	0	root	_	_
+8	ilerliyoruz	ilerliyoruz	VERB	_	_	0	root	_	_
+9	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 50
+# text = Samimi bir sohbet insanın ruhunu rahatlatır .
+1	Samimi	Samimi	ADJ	_	_	0	root	_	_
+2	bir	bir	DET	_	_	0	root	_	_
+3	sohbet	sohbet	NOUN	_	_	0	root	_	_
+4	insanın	insanın	NOUN	_	_	0	root	_	_
+5	ruhunu	ruhunu	NOUN	_	_	0	root	_	_
+6	rahatlatır	rahatlatır	VERB	_	_	0	root	_	_
+7	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 51
+# text = Küçüklüğümden beri voleybol oynamakla aram baya iyi dir .
+1	Küçüklüğümden	Küçüklüğümden	NOUN	_	_	0	root	_	_
+2	beri	beri	ADP	_	_	0	root	_	_
+3	voleybol	voleybol	NOUN	_	_	0	root	_	_
+4	oynamakla	oynamakla	VERB	_	_	0	root	_	_
+5	aram	aram	NOUN	_	_	0	root	_	_
+6	baya	baya	ADV	_	_	0	root	_	_
+7	iyi	iyi	ADJ	_	_	0	root	_	_
+8	dir	dir	AUX	_	_	0	root	_	_
+9	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 52
+# text = Yüzyıl lardır süren büyük toprak savaşları sonunda ateşkes antlaşmaları imzalanarak barışa erdi .
+1	Yüzyıl	Yüzyıl	NOUN	_	_	0	root	_	_
+2	lardır	lardır	AUX	_	_	0	root	_	_
+3	süren	süren	VERB	_	_	0	root	_	_
+4	büyük	büyük	ADJ	_	_	0	root	_	_
+5	toprak	toprak	NOUN	_	_	0	root	_	_
+6	savaşları	savaşları	NOUN	_	_	0	root	_	_
+7	sonunda	sonunda	ADV	_	_	0	root	_	_
+8	ateşkes	ateşkes	NOUN	_	_	0	root	_	_
+9	antlaşmaları	antlaşmaları	NOUN	_	_	0	root	_	_
+10	imzalanarak	imzalanarak	VERB	_	_	0	root	_	_
+11	barışa	barışa	NOUN	_	_	0	root	_	_
+12	erdi	erdi	VERB	_	_	0	root	_	_
+13	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 53
+# text = Sabah kahvaltıya otururken ekmek bitmişti ve çayın şekeri fazla geldiği için kahvaltı keyfim kaçtı .
+1	Sabah	Sabah	NOUN	_	_	0	root	_	_
+2	kahvaltıya	kahvaltıya	NOUN	_	_	0	root	_	_
+3	otururken	otururken	VERB	_	_	0	root	_	_
+4	ekmek	ekmek	NOUN	_	_	0	root	_	_
+5	bitmişti	bitmişti	VERB	_	_	0	root	_	_
+6	ve	ve	CCONJ	_	_	0	root	_	_
+7	çayın	çayın	NOUN	_	_	0	root	_	_
+8	şekeri	şekeri	NOUN	_	_	0	root	_	_
+9	fazla	fazla	ADV	_	_	0	root	_	_
+10	geldiği	geldiği	VERB	_	_	0	root	_	_
+11	için	için	ADP	_	_	0	root	_	_
+12	kahvaltı	kahvaltı	NOUN	_	_	0	root	_	_
+13	keyfim	keyfim	NOUN	_	_	0	root	_	_
+14	kaçtı	kaçtı	VERB	_	_	0	root	_	_
+15	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 54
+# text = Bilgisayarın içini temizlemek sandığımdan daha çabuk bitti .
+1	Bilgisayarın	Bilgisayarın	NOUN	_	_	0	root	_	_
+2	içini	içini	ADJ	_	_	0	root	_	_
+3	temizlemek	temizlemek	VERB	_	_	0	root	_	_
+4	sandığımdan	sandığımdan	VERB	_	_	0	root	_	_
+5	daha	daha	ADV	_	_	0	root	_	_
+6	çabuk	çabuk	ADJ	_	_	0	root	_	_
+7	bitti	bitti	VERB	_	_	0	root	_	_
+8	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 55
+# text = Bir dostun yanında olmak , huzur verir .
+1	Bir	Bir	DET	_	_	0	root	_	_
+2	dostun	dostun	ADJ	_	_	0	root	_	_
+3	yanında	yanında	ADJ	_	_	0	root	_	_
+4	olmak	olmak	VERB	_	_	0	root	_	_
+5	,	,	PUNCT	_	_	0	root	_	_
+6	huzur	huzur	NOUN	_	_	0	root	_	_
+7	verir	verir	VERB	_	_	0	root	_	_
+8	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 56
+# text = Ailesine göre sesi güzel olduğu için şarkı söylemeyi çok seviyordu .
+1	Ailesine	Ailesine	NOUN	_	_	0	root	_	_
+2	göre	göre	ADP	_	_	0	root	_	_
+3	sesi	sesi	NOUN	_	_	0	root	_	_
+4	güzel	güzel	ADJ	_	_	0	root	_	_
+5	olduğu	olduğu	VERB	_	_	0	root	_	_
+6	için	için	ADP	_	_	0	root	_	_
+7	şarkı	şarkı	NOUN	_	_	0	root	_	_
+8	söylemeyi	söylemeyi	VERB	_	_	0	root	_	_
+9	çok	çok	ADV	_	_	0	root	_	_
+10	seviyordu	seviyordu	VERB	_	_	0	root	_	_
+11	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 57
+# text = Bu pis dünyada insan görmemiş ormanların güzelliği güneşin doğmasını sağlıyor .
+1	Bu	Bu	DET	_	_	0	root	_	_
+2	pis	pis	ADJ	_	_	0	root	_	_
+3	dünyada	dünyada	NOUN	_	_	0	root	_	_
+4	insan	insan	NOUN	_	_	0	root	_	_
+5	görmemiş	görmemiş	VERB	_	_	0	root	_	_
+6	ormanların	ormanların	NOUN	_	_	0	root	_	_
+7	güzelliği	güzelliği	NOUN	_	_	0	root	_	_
+8	güneşin	güneşin	NOUN	_	_	0	root	_	_
+9	doğmasını	doğmasını	VERB	_	_	0	root	_	_
+10	sağlıyor	sağlıyor	VERB	_	_	0	root	_	_
+11	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 58
+# text = Beklediğim kadar iyi bir tecrübe edinemediğim için üzgünüm .
+1	Beklediğim	Beklediğim	VERB	_	_	0	root	_	_
+2	kadar	kadar	ADP	_	_	0	root	_	_
+3	iyi	iyi	ADJ	_	_	0	root	_	_
+4	bir	bir	DET	_	_	0	root	_	_
+5	tecrübe	tecrübe	NOUN	_	_	0	root	_	_
+6	edinemediğim	edinemediğim	VERB	_	_	0	root	_	_
+7	için	için	ADP	_	_	0	root	_	_
+8	üzgünüm	üzgünüm	VERB	_	_	0	root	_	_
+9	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 59
+# text = Tatilde gittiğim köy , sessizliği ve doğallığıyla beni büyüledi .
+1	Tatilde	Tatilde	NOUN	_	_	0	root	_	_
+2	gittiğim	gittiğim	VERB	_	_	0	root	_	_
+3	köy	köy	NOUN	_	_	0	root	_	_
+4	,	,	PUNCT	_	_	0	root	_	_
+5	sessizliği	sessizliği	NOUN	_	_	0	root	_	_
+6	ve	ve	CCONJ	_	_	0	root	_	_
+7	doğallığıyla	doğallığıyla	NOUN	_	_	0	root	_	_
+8	beni	beni	PRON	_	_	0	root	_	_
+9	büyüledi	büyüledi	VERB	_	_	0	root	_	_
+10	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 60
+# text = İnsanların bu kadar anlayışsız olması gerçekten üzücü ve moral bozucu .
+1	İnsanların	İnsanların	ADJ	_	_	0	root	_	_
+2	bu	bu	DET	_	_	0	root	_	_
+3	kadar	kadar	ADP	_	_	0	root	_	_
+4	anlayışsız	anlayışsız	ADJ	_	_	0	root	_	_
+5	olması	olması	VERB	_	_	0	root	_	_
+6	gerçekten	gerçekten	ADV	_	_	0	root	_	_
+7	üzücü	üzücü	ADJ	_	_	0	root	_	_
+8	ve	ve	CCONJ	_	_	0	root	_	_
+9	moral	moral	NOUN	_	_	0	root	_	_
+10	bozucu	bozucu	ADJ	_	_	0	root	_	_
+11	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 61
+# text = Bu bölgede misafir olabileceğimiz tek bir ev bile yok tu .
+1	Bu	Bu	DET	_	_	0	root	_	_
+2	bölgede	bölgede	NOUN	_	_	0	root	_	_
+3	misafir	misafir	NOUN	_	_	0	root	_	_
+4	olabileceğimiz	olabileceğimiz	VERB	_	_	0	root	_	_
+5	tek	tek	ADJ	_	_	0	root	_	_
+6	bir	bir	DET	_	_	0	root	_	_
+7	ev	ev	NOUN	_	_	0	root	_	_
+8	bile	bile	ADV	_	_	0	root	_	_
+9	yok	yok	ADV	_	_	0	root	_	_
+10	tu	tu	AUX	_	_	0	root	_	_
+11	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 62
+# text = Her fırsatta bir engel çıkıyor ve bu durum beni çok üzüyor .
+1	Her	Her	DET	_	_	0	root	_	_
+2	fırsatta	fırsatta	NOUN	_	_	0	root	_	_
+3	bir	bir	DET	_	_	0	root	_	_
+4	engel	engel	NOUN	_	_	0	root	_	_
+5	çıkıyor	çıkıyor	VERB	_	_	0	root	_	_
+6	ve	ve	CCONJ	_	_	0	root	_	_
+7	bu	bu	DET	_	_	0	root	_	_
+8	durum	durum	NOUN	_	_	0	root	_	_
+9	beni	beni	PRON	_	_	0	root	_	_
+10	çok	çok	ADV	_	_	0	root	_	_
+11	üzüyor	üzüyor	VERB	_	_	0	root	_	_
+12	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 63
+# text = Bütün çocuklar babası ve annesi tartıştığı zaman bundan kötü etkilenip üzülür .
+1	Bütün	Bütün	ADJ	_	_	0	root	_	_
+2	çocuklar	çocuklar	NOUN	_	_	0	root	_	_
+3	babası	babası	NOUN	_	_	0	root	_	_
+4	ve	ve	CCONJ	_	_	0	root	_	_
+5	annesi	annesi	NOUN	_	_	0	root	_	_
+6	tartıştığı	tartıştığı	VERB	_	_	0	root	_	_
+7	zaman	zaman	NOUN	_	_	0	root	_	_
+8	bundan	bundan	PRON	_	_	0	root	_	_
+9	kötü	kötü	ADJ	_	_	0	root	_	_
+10	etkilenip	etkilenip	VERB	_	_	0	root	_	_
+11	üzülür	üzülür	VERB	_	_	0	root	_	_
+12	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 64
+# text = Bugün alışverişte uzun kuyruklarda beklemek zorunda kaldım .
+1	Bugün	Bugün	NOUN	_	_	0	root	_	_
+2	alışverişte	alışverişte	NOUN	_	_	0	root	_	_
+3	uzun	uzun	ADJ	_	_	0	root	_	_
+4	kuyruklarda	kuyruklarda	NOUN	_	_	0	root	_	_
+5	beklemek	beklemek	VERB	_	_	0	root	_	_
+6	zorunda	zorunda	ADJ	_	_	0	root	_	_
+7	kaldım	kaldım	VERB	_	_	0	root	_	_
+8	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 65
+# text = Tır kullanmak ve yük taşımanın birçok kişi tarafından sevilir .
+1	Tır	Tır	NOUN	_	_	0	root	_	_
+2	kullanmak	kullanmak	VERB	_	_	0	root	_	_
+3	ve	ve	CCONJ	_	_	0	root	_	_
+4	yük	yük	NOUN	_	_	0	root	_	_
+5	taşımanın	taşımanın	VERB	_	_	0	root	_	_
+6	birçok	birçok	DET	_	_	0	root	_	_
+7	kişi	kişi	NOUN	_	_	0	root	_	_
+8	tarafından	tarafından	NOUN	_	_	0	root	_	_
+9	sevilir	sevilir	VERB	_	_	0	root	_	_
+10	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 66
+# text = Bugün markette çok uzun kuyruklar vardı ve zaman kaybettim .
+1	Bugün	Bugün	NOUN	_	_	0	root	_	_
+2	markette	markette	NOUN	_	_	0	root	_	_
+3	çok	çok	ADV	_	_	0	root	_	_
+4	uzun	uzun	ADJ	_	_	0	root	_	_
+5	kuyruklar	kuyruklar	NOUN	_	_	0	root	_	_
+6	vardı	vardı	VERB	_	_	0	root	_	_
+7	ve	ve	CCONJ	_	_	0	root	_	_
+8	zaman	zaman	NOUN	_	_	0	root	_	_
+9	kaybettim	kaybettim	VERB	_	_	0	root	_	_
+10	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 67
+# text = Günümüzde bilgisayar teknolojisi hızla gelişmeye ve yaygınlaşmaya devam ediyor .
+1	Günümüzde	Günümüzde	NOUN	_	_	0	root	_	_
+2	bilgisayar	bilgisayar	NOUN	_	_	0	root	_	_
+3	teknolojisi	teknolojisi	NOUN	_	_	0	root	_	_
+4	hızla	hızla	NOUN	_	_	0	root	_	_
+5	gelişmeye	gelişmeye	VERB	_	_	0	root	_	_
+6	ve	ve	CCONJ	_	_	0	root	_	_
+7	yaygınlaşmaya	yaygınlaşmaya	VERB	_	_	0	root	_	_
+8	devam	devam	NOUN	_	_	0	root	_	_
+9	ediyor	ediyor	VERB	_	_	0	root	_	_
+10	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 68
+# text = Eğer yapmak istediğin şeyi iyice düşünmeyip güzel bir plana oturmazsan yapacağın işin sonu kötü sonuçlanır .
+1	Eğer	Eğer	CCONJ	_	_	0	root	_	_
+2	yapmak	yapmak	VERB	_	_	0	root	_	_
+3	istediğin	istediğin	VERB	_	_	0	root	_	_
+4	şeyi	şeyi	NOUN	_	_	0	root	_	_
+5	iyice	iyice	ADV	_	_	0	root	_	_
+6	düşünmeyip	düşünmeyip	VERB	_	_	0	root	_	_
+7	güzel	güzel	ADJ	_	_	0	root	_	_
+8	bir	bir	DET	_	_	0	root	_	_
+9	plana	plana	NOUN	_	_	0	root	_	_
+10	oturmazsan	oturmazsan	VERB	_	_	0	root	_	_
+11	yapacağın	yapacağın	VERB	_	_	0	root	_	_
+12	işin	işin	NOUN	_	_	0	root	_	_
+13	sonu	sonu	ADJ	_	_	0	root	_	_
+14	kötü	kötü	ADJ	_	_	0	root	_	_
+15	sonuçlanır	sonuçlanır	VERB	_	_	0	root	_	_
+16	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 69
+# text = Babamı hiç sevemedim çünkü her zaman döverdi , hiç sevmezdi .
+1	Babamı	Babamı	NOUN	_	_	0	root	_	_
+2	hiç	hiç	ADV	_	_	0	root	_	_
+3	sevemedim	sevemedim	VERB	_	_	0	root	_	_
+4	çünkü	çünkü	CCONJ	_	_	0	root	_	_
+5	her	her	DET	_	_	0	root	_	_
+6	zaman	zaman	NOUN	_	_	0	root	_	_
+7	döverdi	döverdi	VERB	_	_	0	root	_	_
+8	,	,	PUNCT	_	_	0	root	_	_
+9	hiç	hiç	ADV	_	_	0	root	_	_
+10	sevmezdi	sevmezdi	VERB	_	_	0	root	_	_
+11	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 70
+# text = Gece yarısı gençlerin sokakta ki bağrışmalarını duyan yaşlı adam sinirle homurdanarak yatağından kalktı .
+1	Gece	Gece	NOUN	_	_	0	root	_	_
+2	yarısı	yarısı	ADJ	_	_	0	root	_	_
+3	gençlerin	gençlerin	ADJ	_	_	0	root	_	_
+4	sokakta	sokakta	NOUN	_	_	0	root	_	_
+5	ki	ki	ADP	_	_	0	root	_	_
+6	bağrışmalarını	bağrışmalarını	NOUN	_	_	0	root	_	_
+7	duyan	duyan	VERB	_	_	0	root	_	_
+8	yaşlı	yaşlı	ADJ	_	_	0	root	_	_
+9	adam	adam	NOUN	_	_	0	root	_	_
+10	sinirle	sinirle	NOUN	_	_	0	root	_	_
+11	homurdanarak	homurdanarak	VERB	_	_	0	root	_	_
+12	yatağından	yatağından	NOUN	_	_	0	root	_	_
+13	kalktı	kalktı	VERB	_	_	0	root	_	_
+14	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 71
+# text = Sevgi , en güçlü bağ dır .
+1	Sevgi	Sevgi	NOUN	_	_	0	root	_	_
+2	,	,	PUNCT	_	_	0	root	_	_
+3	en	en	ADV	_	_	0	root	_	_
+4	güçlü	güçlü	ADJ	_	_	0	root	_	_
+5	bağ	bağ	NOUN	_	_	0	root	_	_
+6	dır	dır	AUX	_	_	0	root	_	_
+7	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 72
+# text = Sabah otobüs bozuldu ve işe geç kaldım .
+1	Sabah	Sabah	NOUN	_	_	0	root	_	_
+2	otobüs	otobüs	NOUN	_	_	0	root	_	_
+3	bozuldu	bozuldu	VERB	_	_	0	root	_	_
+4	ve	ve	CCONJ	_	_	0	root	_	_
+5	işe	işe	NOUN	_	_	0	root	_	_
+6	geç	geç	ADV	_	_	0	root	_	_
+7	kaldım	kaldım	VERB	_	_	0	root	_	_
+8	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 73
+# text = Yeni bir beceri öğrenmek beni çok motive etti .
+1	Yeni	Yeni	ADJ	_	_	0	root	_	_
+2	bir	bir	DET	_	_	0	root	_	_
+3	beceri	beceri	NOUN	_	_	0	root	_	_
+4	öğrenmek	öğrenmek	VERB	_	_	0	root	_	_
+5	beni	beni	PRON	_	_	0	root	_	_
+6	çok	çok	ADV	_	_	0	root	_	_
+7	motive	motive	NOUN	_	_	0	root	_	_
+8	etti	etti	VERB	_	_	0	root	_	_
+9	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 74
+# text = Sabah kahvaltıda sıcak kruvasan yedim ve çok sevdim .
+1	Sabah	Sabah	NOUN	_	_	0	root	_	_
+2	kahvaltıda	kahvaltıda	NOUN	_	_	0	root	_	_
+3	sıcak	sıcak	ADJ	_	_	0	root	_	_
+4	kruvasan	kruvasan	NOUN	_	_	0	root	_	_
+5	yedim	yedim	VERB	_	_	0	root	_	_
+6	ve	ve	CCONJ	_	_	0	root	_	_
+7	çok	çok	ADV	_	_	0	root	_	_
+8	sevdim	sevdim	VERB	_	_	0	root	_	_
+9	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 75
+# text = Bir satranç maçında her taşın aslında başka birinin hayatını temsil ettiğini düşündüğümde , oyunun galibi olmanın neden beni bu kadar huzursuz ettiğini anladım .
+1	Bir	Bir	DET	_	_	0	root	_	_
+2	satranç	satranç	NOUN	_	_	0	root	_	_
+3	maçında	maçında	NOUN	_	_	0	root	_	_
+4	her	her	DET	_	_	0	root	_	_
+5	taşın	taşın	NOUN	_	_	0	root	_	_
+6	aslında	aslında	ADV	_	_	0	root	_	_
+7	başka	başka	ADJ	_	_	0	root	_	_
+8	birinin	birinin	PRON	_	_	0	root	_	_
+9	hayatını	hayatını	NOUN	_	_	0	root	_	_
+10	temsil	temsil	NOUN	_	_	0	root	_	_
+11	ettiğini	ettiğini	VERB	_	_	0	root	_	_
+12	düşündüğümde	düşündüğümde	VERB	_	_	0	root	_	_
+13	,	,	PUNCT	_	_	0	root	_	_
+14	oyunun	oyunun	NOUN	_	_	0	root	_	_
+15	galibi	galibi	NOUN	_	_	0	root	_	_
+16	olmanın	olmanın	VERB	_	_	0	root	_	_
+17	neden	neden	PRON	_	_	0	root	_	_
+18	beni	beni	PRON	_	_	0	root	_	_
+19	bu	bu	DET	_	_	0	root	_	_
+20	kadar	kadar	ADP	_	_	0	root	_	_
+21	huzursuz	huzursuz	ADJ	_	_	0	root	_	_
+22	ettiğini	ettiğini	VERB	_	_	0	root	_	_
+23	anladım	anladım	VERB	_	_	0	root	_	_
+24	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 76
+# text = Ayakkabılarına bayıldım .
+1	Ayakkabılarına	Ayakkabılarına	NOUN	_	_	0	root	_	_
+2	bayıldım	bayıldım	VERB	_	_	0	root	_	_
+3	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 77
+# text = Yaptığım hataların yükü çok ağır geliyor .
+1	Yaptığım	Yaptığım	VERB	_	_	0	root	_	_
+2	hataların	hataların	NOUN	_	_	0	root	_	_
+3	yükü	yükü	NOUN	_	_	0	root	_	_
+4	çok	çok	ADV	_	_	0	root	_	_
+5	ağır	ağır	ADJ	_	_	0	root	_	_
+6	geliyor	geliyor	VERB	_	_	0	root	_	_
+7	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 78
+# text = Açken yemek yiyince enerjimi geri kazanıyorum .
+1	Açken	Açken	NOUN	_	_	0	root	_	_
+2	yemek	yemek	NOUN	_	_	0	root	_	_
+3	yiyince	yiyince	VERB	_	_	0	root	_	_
+4	enerjimi	enerjimi	NOUN	_	_	0	root	_	_
+5	geri	geri	ADJ	_	_	0	root	_	_
+6	kazanıyorum	kazanıyorum	VERB	_	_	0	root	_	_
+7	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 79
+# text = Çalan şarkı ile birlikte aklına gelenler yüzünden gözleri dolmuştu .
+1	Çalan	Çalan	VERB	_	_	0	root	_	_
+2	şarkı	şarkı	NOUN	_	_	0	root	_	_
+3	ile	ile	ADP	_	_	0	root	_	_
+4	birlikte	birlikte	ADP	_	_	0	root	_	_
+5	aklına	aklına	NOUN	_	_	0	root	_	_
+6	gelenler	gelenler	ADJ	_	_	0	root	_	_
+7	yüzünden	yüzünden	NOUN	_	_	0	root	_	_
+8	gözleri	gözleri	NOUN	_	_	0	root	_	_
+9	dolmuştu	dolmuştu	VERB	_	_	0	root	_	_
+10	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 80
+# text = Sabah erkenden kalkıp sahilde yürüyüş yaptım ve enerji doluydum .
+1	Sabah	Sabah	NOUN	_	_	0	root	_	_
+2	erkenden	erkenden	ADV	_	_	0	root	_	_
+3	kalkıp	kalkıp	VERB	_	_	0	root	_	_
+4	sahilde	sahilde	NOUN	_	_	0	root	_	_
+5	yürüyüş	yürüyüş	NOUN	_	_	0	root	_	_
+6	yaptım	yaptım	VERB	_	_	0	root	_	_
+7	ve	ve	CCONJ	_	_	0	root	_	_
+8	enerji	enerji	NOUN	_	_	0	root	_	_
+9	doluydum	doluydum	VERB	_	_	0	root	_	_
+10	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 81
+# text = Arkadaşlığımız boyunca beni sevdiğini düşünmüyor değildim ama şu an anlıyorum ki beni hiç sevmiş değilsin .
+1	Arkadaşlığımız	Arkadaşlığımız	NOUN	_	_	0	root	_	_
+2	boyunca	boyunca	ADP	_	_	0	root	_	_
+3	beni	beni	PRON	_	_	0	root	_	_
+4	sevdiğini	sevdiğini	VERB	_	_	0	root	_	_
+5	düşünmüyor	düşünmüyor	VERB	_	_	0	root	_	_
+6	değildim	değildim	AUX	_	_	0	root	_	_
+7	ama	ama	CCONJ	_	_	0	root	_	_
+8	şu	şu	DET	_	_	0	root	_	_
+9	an	an	NOUN	_	_	0	root	_	_
+10	anlıyorum	anlıyorum	VERB	_	_	0	root	_	_
+11	ki	ki	CCONJ	_	_	0	root	_	_
+12	beni	beni	PRON	_	_	0	root	_	_
+13	hiç	hiç	ADV	_	_	0	root	_	_
+14	sevmiş	sevmiş	VERB	_	_	0	root	_	_
+15	değilsin	değilsin	AUX	_	_	0	root	_	_
+16	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 82
+# text = Bir hayalim var gözlerinde saklı , her an aklımdasın ceylan gözlüm .
+1	Bir	Bir	DET	_	_	0	root	_	_
+2	hayalim	hayalim	NOUN	_	_	0	root	_	_
+3	var	var	ADJ	_	_	0	root	_	_
+4	gözlerinde	gözlerinde	NOUN	_	_	0	root	_	_
+5	saklı	saklı	ADJ	_	_	0	root	_	_
+6	,	,	PUNCT	_	_	0	root	_	_
+7	her	her	DET	_	_	0	root	_	_
+8	an	an	NOUN	_	_	0	root	_	_
+9	aklımdasın	aklımdasın	VERB	_	_	0	root	_	_
+10	ceylan	ceylan	NOUN	_	_	0	root	_	_
+11	gözlüm	gözlüm	NOUN	_	_	0	root	_	_
+12	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 83
+# text = Kitap okumak , bilgiyle dolu dünyalara açılan bir kapı dır .
+1	Kitap	Kitap	NOUN	_	_	0	root	_	_
+2	okumak	okumak	VERB	_	_	0	root	_	_
+3	,	,	PUNCT	_	_	0	root	_	_
+4	bilgiyle	bilgiyle	NOUN	_	_	0	root	_	_
+5	dolu	dolu	ADJ	_	_	0	root	_	_
+6	dünyalara	dünyalara	NOUN	_	_	0	root	_	_
+7	açılan	açılan	VERB	_	_	0	root	_	_
+8	bir	bir	DET	_	_	0	root	_	_
+9	kapı	kapı	NOUN	_	_	0	root	_	_
+10	dır	dır	AUX	_	_	0	root	_	_
+11	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 84
+# text = Akşam üzeri oturup yıldızları izlemek çok huzur verici ydi .
+1	Akşam	Akşam	NOUN	_	_	0	root	_	_
+2	üzeri	üzeri	ADJ	_	_	0	root	_	_
+3	oturup	oturup	VERB	_	_	0	root	_	_
+4	yıldızları	yıldızları	NOUN	_	_	0	root	_	_
+5	izlemek	izlemek	VERB	_	_	0	root	_	_
+6	çok	çok	ADV	_	_	0	root	_	_
+7	huzur	huzur	NOUN	_	_	0	root	_	_
+8	verici	verici	NOUN	_	_	0	root	_	_
+9	ydi	ydi	AUX	_	_	0	root	_	_
+10	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 85
+# text = Onu hiçbir şey olmamış gibi karşısında görünce öfkeden deliye döndü .
+1	Onu	Onu	PRON	_	_	0	root	_	_
+2	hiçbir	hiçbir	DET	_	_	0	root	_	_
+3	şey	şey	NOUN	_	_	0	root	_	_
+4	olmamış	olmamış	VERB	_	_	0	root	_	_
+5	gibi	gibi	ADP	_	_	0	root	_	_
+6	karşısında	karşısında	ADJ	_	_	0	root	_	_
+7	görünce	görünce	VERB	_	_	0	root	_	_
+8	öfkeden	öfkeden	NOUN	_	_	0	root	_	_
+9	deliye	deliye	ADJ	_	_	0	root	_	_
+10	döndü	döndü	VERB	_	_	0	root	_	_
+11	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 86
+# text = Anlaşılmamak gerçekten çok kırıcı ve moral bozucu .
+1	Anlaşılmamak	Anlaşılmamak	VERB	_	_	0	root	_	_
+2	gerçekten	gerçekten	ADV	_	_	0	root	_	_
+3	çok	çok	ADV	_	_	0	root	_	_
+4	kırıcı	kırıcı	ADJ	_	_	0	root	_	_
+5	ve	ve	CCONJ	_	_	0	root	_	_
+6	moral	moral	NOUN	_	_	0	root	_	_
+7	bozucu	bozucu	ADJ	_	_	0	root	_	_
+8	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 87
+# text = Yarın planladığımız geziye ne yazık ki gidemeyeceğiz .
+1	Yarın	Yarın	NOUN	_	_	0	root	_	_
+2	planladığımız	planladığımız	VERB	_	_	0	root	_	_
+3	geziye	geziye	NOUN	_	_	0	root	_	_
+4	ne	ne	PRON	_	_	0	root	_	_
+5	yazık	yazık	NOUN	_	_	0	root	_	_
+6	ki	ki	CCONJ	_	_	0	root	_	_
+7	gidemeyeceğiz	gidemeyeceğiz	VERB	_	_	0	root	_	_
+8	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 88
+# text = Akşam tam yemeği hazırlarken elektrik kesildi .
+1	Akşam	Akşam	NOUN	_	_	0	root	_	_
+2	tam	tam	ADJ	_	_	0	root	_	_
+3	yemeği	yemeği	NOUN	_	_	0	root	_	_
+4	hazırlarken	hazırlarken	VERB	_	_	0	root	_	_
+5	elektrik	elektrik	NOUN	_	_	0	root	_	_
+6	kesildi	kesildi	VERB	_	_	0	root	_	_
+7	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 89
+# text = Gece boyunca uykusuzluğun pençesinde kıvranırken , aklıma gelen tüm hatalarımın aslında ne kadar küçük ama bir o kadar da anlam lı olduğunu hissetmek , uykuya dalmamı imkânsız hale getirdi .
+1	Gece	Gece	NOUN	_	_	0	root	_	_
+2	boyunca	boyunca	ADP	_	_	0	root	_	_
+3	uykusuzluğun	uykusuzluğun	NOUN	_	_	0	root	_	_
+4	pençesinde	pençesinde	NOUN	_	_	0	root	_	_
+5	kıvranırken	kıvranırken	VERB	_	_	0	root	_	_
+6	,	,	PUNCT	_	_	0	root	_	_
+7	aklıma	aklıma	NOUN	_	_	0	root	_	_
+8	gelen	gelen	VERB	_	_	0	root	_	_
+9	tüm	tüm	DET	_	_	0	root	_	_
+10	hatalarımın	hatalarımın	NOUN	_	_	0	root	_	_
+11	aslında	aslında	ADV	_	_	0	root	_	_
+12	ne	ne	PRON	_	_	0	root	_	_
+13	kadar	kadar	ADP	_	_	0	root	_	_
+14	küçük	küçük	ADJ	_	_	0	root	_	_
+15	ama	ama	CCONJ	_	_	0	root	_	_
+16	bir	bir	ADV	_	_	0	root	_	_
+17	o	o	DET	_	_	0	root	_	_
+18	kadar	kadar	ADP	_	_	0	root	_	_
+19	da	da	CCONJ	_	_	0	root	_	_
+20	anlam	anlam	NOUN	_	_	0	root	_	_
+21	lı	lı	ADP	_	_	0	root	_	_
+22	olduğunu	olduğunu	VERB	_	_	0	root	_	_
+23	hissetmek	hissetmek	VERB	_	_	0	root	_	_
+24	,	,	PUNCT	_	_	0	root	_	_
+25	uykuya	uykuya	NOUN	_	_	0	root	_	_
+26	dalmamı	dalmamı	VERB	_	_	0	root	_	_
+27	imkânsız	imkânsız	ADJ	_	_	0	root	_	_
+28	hale	hale	NOUN	_	_	0	root	_	_
+29	getirdi	getirdi	VERB	_	_	0	root	_	_
+30	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 90
+# text = Bugün en iyi çocukluk arkadaşımla karşılaştı m
+1	Bugün	Bugün	NOUN	_	_	0	root	_	_
+2	en	en	ADV	_	_	0	root	_	_
+3	iyi	iyi	ADJ	_	_	0	root	_	_
+4	çocukluk	çocukluk	NOUN	_	_	0	root	_	_
+5	arkadaşımla	arkadaşımla	NOUN	_	_	0	root	_	_
+6	karşılaştı	karşılaştı	VERB	_	_	0	root	_	_
+7	m	m	NOUN	_	_	0	root	_	_
+
+# sent_id = 91
+# text = Kendimi bildim bileli insanlarla iletişim kurma konusunda normalden bir tık fazla becerik li yim .
+1	Kendimi	Kendimi	PRON	_	_	0	root	_	_
+2	bildim	bildim	VERB	_	_	0	root	_	_
+3	bileli	bileli	ADV	_	_	0	root	_	_
+4	insanlarla	insanlarla	NOUN	_	_	0	root	_	_
+5	iletişim	iletişim	NOUN	_	_	0	root	_	_
+6	kurma	kurma	VERB	_	_	0	root	_	_
+7	konusunda	konusunda	NOUN	_	_	0	root	_	_
+8	normalden	normalden	NOUN	_	_	0	root	_	_
+9	bir	bir	DET	_	_	0	root	_	_
+10	tık	tık	NOUN	_	_	0	root	_	_
+11	fazla	fazla	ADV	_	_	0	root	_	_
+12	becerik	becerik	NOUN	_	_	0	root	_	_
+13	li	li	ADP	_	_	0	root	_	_
+14	yim	yim	AUX	_	_	0	root	_	_
+15	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 92
+# text = Eşyalar taşınırken ailenin küçük çocuğunun klavyesi kırılmış suratı beş karıştı .
+1	Eşyalar	Eşyalar	NOUN	_	_	0	root	_	_
+2	taşınırken	taşınırken	VERB	_	_	0	root	_	_
+3	ailenin	ailenin	NOUN	_	_	0	root	_	_
+4	küçük	küçük	ADJ	_	_	0	root	_	_
+5	çocuğunun	çocuğunun	NOUN	_	_	0	root	_	_
+6	klavyesi	klavyesi	NOUN	_	_	0	root	_	_
+7	kırılmış	kırılmış	VERB	_	_	0	root	_	_
+8	suratı	suratı	NOUN	_	_	0	root	_	_
+9	beş	beş	NUM	_	_	0	root	_	_
+10	karıştı	karıştı	VERB	_	_	0	root	_	_
+11	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 93
+# text = Mahsur kaldığımız orman zifiri karanlık ve çok tenha bir yerde olunca arkadaşım korkudan bayıldı .
+1	Mahsur	Mahsur	ADJ	_	_	0	root	_	_
+2	kaldığımız	kaldığımız	VERB	_	_	0	root	_	_
+3	orman	orman	NOUN	_	_	0	root	_	_
+4	zifiri	zifiri	NOUN	_	_	0	root	_	_
+5	karanlık	karanlık	ADJ	_	_	0	root	_	_
+6	ve	ve	CCONJ	_	_	0	root	_	_
+7	çok	çok	ADV	_	_	0	root	_	_
+8	tenha	tenha	ADJ	_	_	0	root	_	_
+9	bir	bir	DET	_	_	0	root	_	_
+10	yerde	yerde	NOUN	_	_	0	root	_	_
+11	olunca	olunca	VERB	_	_	0	root	_	_
+12	arkadaşım	arkadaşım	NOUN	_	_	0	root	_	_
+13	korkudan	korkudan	NOUN	_	_	0	root	_	_
+14	bayıldı	bayıldı	VERB	_	_	0	root	_	_
+15	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 94
+# text = Yeni aldığım kitap ilk sayfadan itibaren ilgimi çekmedi değil .
+1	Yeni	Yeni	ADJ	_	_	0	root	_	_
+2	aldığım	aldığım	VERB	_	_	0	root	_	_
+3	kitap	kitap	NOUN	_	_	0	root	_	_
+4	ilk	ilk	ADJ	_	_	0	root	_	_
+5	sayfadan	sayfadan	NOUN	_	_	0	root	_	_
+6	itibaren	itibaren	ADP	_	_	0	root	_	_
+7	ilgimi	ilgimi	NOUN	_	_	0	root	_	_
+8	çekmedi	çekmedi	VERB	_	_	0	root	_	_
+9	değil	değil	AUX	_	_	0	root	_	_
+10	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 95
+# text = Az önce toplantıda öne sürdüğün fikir müthiş !
+1	Az	Az	ADV	_	_	0	root	_	_
+2	önce	önce	ADV	_	_	0	root	_	_
+3	toplantıda	toplantıda	NOUN	_	_	0	root	_	_
+4	öne	öne	ADJ	_	_	0	root	_	_
+5	sürdüğün	sürdüğün	VERB	_	_	0	root	_	_
+6	fikir	fikir	NOUN	_	_	0	root	_	_
+7	müthiş	müthiş	ADJ	_	_	0	root	_	_
+8	!	!	PUNCT	_	_	0	root	_	_
+
+# sent_id = 96
+# text = Çamaşır makinem tüm çamaşırları yanlış programda yıkadığı için moralim bozuldu .
+1	Çamaşır	Çamaşır	NOUN	_	_	0	root	_	_
+2	makinem	makinem	NOUN	_	_	0	root	_	_
+3	tüm	tüm	DET	_	_	0	root	_	_
+4	çamaşırları	çamaşırları	NOUN	_	_	0	root	_	_
+5	yanlış	yanlış	ADJ	_	_	0	root	_	_
+6	programda	programda	NOUN	_	_	0	root	_	_
+7	yıkadığı	yıkadığı	VERB	_	_	0	root	_	_
+8	için	için	ADP	_	_	0	root	_	_
+9	moralim	moralim	NOUN	_	_	0	root	_	_
+10	bozuldu	bozuldu	VERB	_	_	0	root	_	_
+11	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 97
+# text = Başarı , azim ve inançla gelir .
+1	Başarı	Başarı	NOUN	_	_	0	root	_	_
+2	,	,	PUNCT	_	_	0	root	_	_
+3	azim	azim	NOUN	_	_	0	root	_	_
+4	ve	ve	CCONJ	_	_	0	root	_	_
+5	inançla	inançla	NOUN	_	_	0	root	_	_
+6	gelir	gelir	VERB	_	_	0	root	_	_
+7	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 98
+# text = Sen çok mutlu görünüyorsun .
+1	Sen	Sen	PRON	_	_	0	root	_	_
+2	çok	çok	ADV	_	_	0	root	_	_
+3	mutlu	mutlu	ADJ	_	_	0	root	_	_
+4	görünüyorsun	görünüyorsun	VERB	_	_	0	root	_	_
+5	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 99
+# text = Yağmurlu bir sabahın kasveti üzerime çökmüştü ama bir fincan sıcak kahve ve kedim kötü başlayan günü değiştirdi .
+1	Yağmurlu	Yağmurlu	ADJ	_	_	0	root	_	_
+2	bir	bir	DET	_	_	0	root	_	_
+3	sabahın	sabahın	NOUN	_	_	0	root	_	_
+4	kasveti	kasveti	NOUN	_	_	0	root	_	_
+5	üzerime	üzerime	NOUN	_	_	0	root	_	_
+6	çökmüştü	çökmüştü	VERB	_	_	0	root	_	_
+7	ama	ama	CCONJ	_	_	0	root	_	_
+8	bir	bir	DET	_	_	0	root	_	_
+9	fincan	fincan	NOUN	_	_	0	root	_	_
+10	sıcak	sıcak	ADJ	_	_	0	root	_	_
+11	kahve	kahve	NOUN	_	_	0	root	_	_
+12	ve	ve	CCONJ	_	_	0	root	_	_
+13	kedim	kedim	NOUN	_	_	0	root	_	_
+14	kötü	kötü	ADJ	_	_	0	root	_	_
+15	başlayan	başlayan	VERB	_	_	0	root	_	_
+16	günü	günü	NOUN	_	_	0	root	_	_
+17	değiştirdi	değiştirdi	VERB	_	_	0	root	_	_
+18	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 100
+# text = Restoranda sipariş ettiğim yemek eksik geldiği için şikayet ettim .
+1	Restoranda	Restoranda	NOUN	_	_	0	root	_	_
+2	sipariş	sipariş	NOUN	_	_	0	root	_	_
+3	ettiğim	ettiğim	VERB	_	_	0	root	_	_
+4	yemek	yemek	NOUN	_	_	0	root	_	_
+5	eksik	eksik	ADJ	_	_	0	root	_	_
+6	geldiği	geldiği	VERB	_	_	0	root	_	_
+7	için	için	ADP	_	_	0	root	_	_
+8	şikayet	şikayet	NOUN	_	_	0	root	_	_
+9	ettim	ettim	VERB	_	_	0	root	_	_
+10	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 101
+# text = Sabah evimden okuluma gelirken otobüste tatsız bir olayla karşılaştım .
+1	Sabah	Sabah	NOUN	_	_	0	root	_	_
+2	evimden	evimden	NOUN	_	_	0	root	_	_
+3	okuluma	okuluma	NOUN	_	_	0	root	_	_
+4	gelirken	gelirken	VERB	_	_	0	root	_	_
+5	otobüste	otobüste	NOUN	_	_	0	root	_	_
+6	tatsız	tatsız	ADJ	_	_	0	root	_	_
+7	bir	bir	DET	_	_	0	root	_	_
+8	olayla	olayla	NOUN	_	_	0	root	_	_
+9	karşılaştım	karşılaştım	VERB	_	_	0	root	_	_
+10	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 102
+# text = Sipariş ettiği kitaplar baskısı olmadığı için bir ay geç geldi .
+1	Sipariş	Sipariş	NOUN	_	_	0	root	_	_
+2	ettiği	ettiği	VERB	_	_	0	root	_	_
+3	kitaplar	kitaplar	NOUN	_	_	0	root	_	_
+4	baskısı	baskısı	NOUN	_	_	0	root	_	_
+5	olmadığı	olmadığı	VERB	_	_	0	root	_	_
+6	için	için	ADP	_	_	0	root	_	_
+7	bir	bir	DET	_	_	0	root	_	_
+8	ay	ay	NOUN	_	_	0	root	_	_
+9	geç	geç	ADV	_	_	0	root	_	_
+10	geldi	geldi	VERB	_	_	0	root	_	_
+11	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 103
+# text = Dün kü konser baya sıkıcı ydı
+1	Dün	Dün	NOUN	_	_	0	root	_	_
+2	kü	kü	ADP	_	_	0	root	_	_
+3	konser	konser	NOUN	_	_	0	root	_	_
+4	baya	baya	ADV	_	_	0	root	_	_
+5	sıkıcı	sıkıcı	ADJ	_	_	0	root	_	_
+6	ydı	ydı	AUX	_	_	0	root	_	_
+
+# sent_id = 104
+# text = Mutluluk , paylaşmakla çoğalır .
+1	Mutluluk	Mutluluk	NOUN	_	_	0	root	_	_
+2	,	,	PUNCT	_	_	0	root	_	_
+3	paylaşmakla	paylaşmakla	VERB	_	_	0	root	_	_
+4	çoğalır	çoğalır	VERB	_	_	0	root	_	_
+5	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 105
+# text = Fırtınanın ne kadar uzun süreceğini düşünmek beni karamsarlığa sürüklemişti , ancak gökkuşağını gördüğümde bütün bu endişelerim anlamsızlaştı .
+1	Fırtınanın	Fırtınanın	NOUN	_	_	0	root	_	_
+2	ne	ne	PRON	_	_	0	root	_	_
+3	kadar	kadar	ADP	_	_	0	root	_	_
+4	uzun	uzun	ADJ	_	_	0	root	_	_
+5	süreceğini	süreceğini	VERB	_	_	0	root	_	_
+6	düşünmek	düşünmek	VERB	_	_	0	root	_	_
+7	beni	beni	PRON	_	_	0	root	_	_
+8	karamsarlığa	karamsarlığa	NOUN	_	_	0	root	_	_
+9	sürüklemişti	sürüklemişti	VERB	_	_	0	root	_	_
+10	,	,	PUNCT	_	_	0	root	_	_
+11	ancak	ancak	CCONJ	_	_	0	root	_	_
+12	gökkuşağını	gökkuşağını	NOUN	_	_	0	root	_	_
+13	gördüğümde	gördüğümde	VERB	_	_	0	root	_	_
+14	bütün	bütün	ADJ	_	_	0	root	_	_
+15	bu	bu	DET	_	_	0	root	_	_
+16	endişelerim	endişelerim	NOUN	_	_	0	root	_	_
+17	anlamsızlaştı	anlamsızlaştı	VERB	_	_	0	root	_	_
+18	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 106
+# text = Ben , bir zamanlar Amelia olarak anılan , etrafta ışık gibi gezen , kaybolmakla kaybetmek arasında ki farkı hiç bilmeyen ben , artık yolumu bulmuştum .
+1	Ben	Ben	PRON	_	_	0	root	_	_
+2	,	,	PUNCT	_	_	0	root	_	_
+3	bir	bir	DET	_	_	0	root	_	_
+4	zamanlar	zamanlar	NOUN	_	_	0	root	_	_
+5	Amelia	Amelia	PROPN	_	_	0	root	_	_
+6	olarak	olarak	ADP	_	_	0	root	_	_
+7	anılan	anılan	VERB	_	_	0	root	_	_
+8	,	,	PUNCT	_	_	0	root	_	_
+9	etrafta	etrafta	NOUN	_	_	0	root	_	_
+10	ışık	ışık	NOUN	_	_	0	root	_	_
+11	gibi	gibi	ADP	_	_	0	root	_	_
+12	gezen	gezen	VERB	_	_	0	root	_	_
+13	,	,	PUNCT	_	_	0	root	_	_
+14	kaybolmakla	kaybolmakla	VERB	_	_	0	root	_	_
+15	kaybetmek	kaybetmek	VERB	_	_	0	root	_	_
+16	arasında	arasında	ADJ	_	_	0	root	_	_
+17	ki	ki	ADP	_	_	0	root	_	_
+18	farkı	farkı	NOUN	_	_	0	root	_	_
+19	hiç	hiç	ADV	_	_	0	root	_	_
+20	bilmeyen	bilmeyen	VERB	_	_	0	root	_	_
+21	ben	ben	PRON	_	_	0	root	_	_
+22	,	,	PUNCT	_	_	0	root	_	_
+23	artık	artık	ADV	_	_	0	root	_	_
+24	yolumu	yolumu	NOUN	_	_	0	root	_	_
+25	bulmuştum	bulmuştum	VERB	_	_	0	root	_	_
+26	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 107
+# text = Bir gün bir sandalyeyle tartıştım ve kazandım ; ertesi gün masa bana meydan okudu , onu da yendim .
+1	Bir	Bir	DET	_	_	0	root	_	_
+2	gün	gün	NOUN	_	_	0	root	_	_
+3	bir	bir	DET	_	_	0	root	_	_
+4	sandalyeyle	sandalyeyle	NOUN	_	_	0	root	_	_
+5	tartıştım	tartıştım	VERB	_	_	0	root	_	_
+6	ve	ve	CCONJ	_	_	0	root	_	_
+7	kazandım	kazandım	VERB	_	_	0	root	_	_
+8	;	;	PUNCT	_	_	0	root	_	_
+9	ertesi	ertesi	ADJ	_	_	0	root	_	_
+10	gün	gün	NOUN	_	_	0	root	_	_
+11	masa	masa	NOUN	_	_	0	root	_	_
+12	bana	bana	PRON	_	_	0	root	_	_
+13	meydan	meydan	NOUN	_	_	0	root	_	_
+14	okudu	okudu	VERB	_	_	0	root	_	_
+15	,	,	PUNCT	_	_	0	root	_	_
+16	onu	onu	PRON	_	_	0	root	_	_
+17	da	da	CCONJ	_	_	0	root	_	_
+18	yendim	yendim	VERB	_	_	0	root	_	_
+19	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 108
+# text = Yazar elinde bulundurduğu bu seriye adeta yeni bir soluk getirmiş .
+1	Yazar	Yazar	NOUN	_	_	0	root	_	_
+2	elinde	elinde	NOUN	_	_	0	root	_	_
+3	bulundurduğu	bulundurduğu	VERB	_	_	0	root	_	_
+4	bu	bu	DET	_	_	0	root	_	_
+5	seriye	seriye	NOUN	_	_	0	root	_	_
+6	adeta	adeta	ADV	_	_	0	root	_	_
+7	yeni	yeni	ADJ	_	_	0	root	_	_
+8	bir	bir	DET	_	_	0	root	_	_
+9	soluk	soluk	NOUN	_	_	0	root	_	_
+10	getirmiş	getirmiş	VERB	_	_	0	root	_	_
+11	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 109
+# text = Beni umursuyormuş ( ! ) Bir gece odasında boş ilaç kutusu ve bir oda polisle uğurladım .
+1	Beni	Beni	PRON	_	_	0	root	_	_
+2	umursuyormuş	umursuyormuş	VERB	_	_	0	root	_	_
+3	(	(	PUNCT	_	_	0	root	_	_
+4	!	!	PUNCT	_	_	0	root	_	_
+5	)	)	PUNCT	_	_	0	root	_	_
+6	Bir	Bir	DET	_	_	0	root	_	_
+7	gece	gece	NOUN	_	_	0	root	_	_
+8	odasında	odasında	NOUN	_	_	0	root	_	_
+9	boş	boş	ADJ	_	_	0	root	_	_
+10	ilaç	ilaç	NOUN	_	_	0	root	_	_
+11	kutusu	kutusu	NOUN	_	_	0	root	_	_
+12	ve	ve	CCONJ	_	_	0	root	_	_
+13	bir	bir	NUM	_	_	0	root	_	_
+14	oda	oda	NOUN	_	_	0	root	_	_
+15	polisle	polisle	NOUN	_	_	0	root	_	_
+16	uğurladım	uğurladım	VERB	_	_	0	root	_	_
+17	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 110
+# text = Sabah otobüsü kaçırdım ve işe geç kaldım .
+1	Sabah	Sabah	NOUN	_	_	0	root	_	_
+2	otobüsü	otobüsü	NOUN	_	_	0	root	_	_
+3	kaçırdım	kaçırdım	VERB	_	_	0	root	_	_
+4	ve	ve	CCONJ	_	_	0	root	_	_
+5	işe	işe	NOUN	_	_	0	root	_	_
+6	geç	geç	ADV	_	_	0	root	_	_
+7	kaldım	kaldım	VERB	_	_	0	root	_	_
+8	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 111
+# text = Mutlu bir kahvaltı güne başlamanı sağlar .
+1	Mutlu	Mutlu	ADJ	_	_	0	root	_	_
+2	bir	bir	DET	_	_	0	root	_	_
+3	kahvaltı	kahvaltı	NOUN	_	_	0	root	_	_
+4	güne	güne	NOUN	_	_	0	root	_	_
+5	başlamanı	başlamanı	VERB	_	_	0	root	_	_
+6	sağlar	sağlar	VERB	_	_	0	root	_	_
+7	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 112
+# text = Okulun hazırladığı gösteriye , işte oldukları için ne annem ne de babam gelebildi .
+1	Okulun	Okulun	NOUN	_	_	0	root	_	_
+2	hazırladığı	hazırladığı	VERB	_	_	0	root	_	_
+3	gösteriye	gösteriye	NOUN	_	_	0	root	_	_
+4	,	,	PUNCT	_	_	0	root	_	_
+5	işte	işte	ADV	_	_	0	root	_	_
+6	oldukları	oldukları	VERB	_	_	0	root	_	_
+7	için	için	ADP	_	_	0	root	_	_
+8	ne	ne	CCONJ	_	_	0	root	_	_
+9	annem	annem	NOUN	_	_	0	root	_	_
+10	ne	ne	CCONJ	_	_	0	root	_	_
+11	de	de	CCONJ	_	_	0	root	_	_
+12	babam	babam	NOUN	_	_	0	root	_	_
+13	gelebildi	gelebildi	VERB	_	_	0	root	_	_
+14	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 113
+# text = İspanyolca kursuna bu kadar para verdikten sonra öğrenebilmeyi ummuştum .
+1	İspanyolca	İspanyolca	PROPN	_	_	0	root	_	_
+2	kursuna	kursuna	NOUN	_	_	0	root	_	_
+3	bu	bu	DET	_	_	0	root	_	_
+4	kadar	kadar	ADP	_	_	0	root	_	_
+5	para	para	NOUN	_	_	0	root	_	_
+6	verdikten	verdikten	VERB	_	_	0	root	_	_
+7	sonra	sonra	ADP	_	_	0	root	_	_
+8	öğrenebilmeyi	öğrenebilmeyi	VERB	_	_	0	root	_	_
+9	ummuştum	ummuştum	VERB	_	_	0	root	_	_
+10	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 114
+# text = Bu haberi duyana kadar günüm çok güzel geçiyordu
+1	Bu	Bu	DET	_	_	0	root	_	_
+2	haberi	haberi	NOUN	_	_	0	root	_	_
+3	duyana	duyana	VERB	_	_	0	root	_	_
+4	kadar	kadar	ADP	_	_	0	root	_	_
+5	günüm	günüm	NOUN	_	_	0	root	_	_
+6	çok	çok	ADV	_	_	0	root	_	_
+7	güzel	güzel	ADJ	_	_	0	root	_	_
+8	geçiyordu	geçiyordu	VERB	_	_	0	root	_	_
+
+# sent_id = 115
+# text = Sesi o kadar güzeldi ki dinleyen herkesi sesiyle büyülemeyi başarmıştı .
+1	Sesi	Sesi	NOUN	_	_	0	root	_	_
+2	o	o	PRON	_	_	0	root	_	_
+3	kadar	kadar	ADP	_	_	0	root	_	_
+4	güzeldi	güzeldi	VERB	_	_	0	root	_	_
+5	ki	ki	CCONJ	_	_	0	root	_	_
+6	dinleyen	dinleyen	VERB	_	_	0	root	_	_
+7	herkesi	herkesi	NOUN	_	_	0	root	_	_
+8	sesiyle	sesiyle	NOUN	_	_	0	root	_	_
+9	büyülemeyi	büyülemeyi	VERB	_	_	0	root	_	_
+10	başarmıştı	başarmıştı	VERB	_	_	0	root	_	_
+11	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 116
+# text = Yakın zamanda ışık hızına ulaşacak teknolojiye varabileceğimizi hiç sanmıyorum .
+1	Yakın	Yakın	ADJ	_	_	0	root	_	_
+2	zamanda	zamanda	NOUN	_	_	0	root	_	_
+3	ışık	ışık	NOUN	_	_	0	root	_	_
+4	hızına	hızına	NOUN	_	_	0	root	_	_
+5	ulaşacak	ulaşacak	VERB	_	_	0	root	_	_
+6	teknolojiye	teknolojiye	NOUN	_	_	0	root	_	_
+7	varabileceğimizi	varabileceğimizi	VERB	_	_	0	root	_	_
+8	hiç	hiç	ADV	_	_	0	root	_	_
+9	sanmıyorum	sanmıyorum	VERB	_	_	0	root	_	_
+10	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 117
+# text = Ödeve başlarken sonrasında neler yapması gerektiğini düşünmek bile istemiyordu .
+1	Ödeve	Ödeve	NOUN	_	_	0	root	_	_
+2	başlarken	başlarken	VERB	_	_	0	root	_	_
+3	sonrasında	sonrasında	NOUN	_	_	0	root	_	_
+4	neler	neler	PRON	_	_	0	root	_	_
+5	yapması	yapması	VERB	_	_	0	root	_	_
+6	gerektiğini	gerektiğini	VERB	_	_	0	root	_	_
+7	düşünmek	düşünmek	VERB	_	_	0	root	_	_
+8	bile	bile	ADV	_	_	0	root	_	_
+9	istemiyordu	istemiyordu	VERB	_	_	0	root	_	_
+10	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 118
+# text = Sabah kahvaltıda taze ekmek vardı ve çok lezzetli ydi .
+1	Sabah	Sabah	NOUN	_	_	0	root	_	_
+2	kahvaltıda	kahvaltıda	NOUN	_	_	0	root	_	_
+3	taze	taze	ADJ	_	_	0	root	_	_
+4	ekmek	ekmek	NOUN	_	_	0	root	_	_
+5	vardı	vardı	VERB	_	_	0	root	_	_
+6	ve	ve	CCONJ	_	_	0	root	_	_
+7	çok	çok	ADV	_	_	0	root	_	_
+8	lezzetli	lezzetli	ADJ	_	_	0	root	_	_
+9	ydi	ydi	AUX	_	_	0	root	_	_
+10	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 119
+# text = Dün akşam televizyonda çıkan filmden hiç zevk alamadı m
+1	Dün	Dün	NOUN	_	_	0	root	_	_
+2	akşam	akşam	NOUN	_	_	0	root	_	_
+3	televizyonda	televizyonda	NOUN	_	_	0	root	_	_
+4	çıkan	çıkan	VERB	_	_	0	root	_	_
+5	filmden	filmden	NOUN	_	_	0	root	_	_
+6	hiç	hiç	ADV	_	_	0	root	_	_
+7	zevk	zevk	NOUN	_	_	0	root	_	_
+8	alamadı	alamadı	VERB	_	_	0	root	_	_
+9	m	m	NOUN	_	_	0	root	_	_
+
+# sent_id = 120
+# text = Hep hayalini kurduğum bölümü kazanamadı m
+1	Hep	Hep	ADV	_	_	0	root	_	_
+2	hayalini	hayalini	NOUN	_	_	0	root	_	_
+3	kurduğum	kurduğum	VERB	_	_	0	root	_	_
+4	bölümü	bölümü	NOUN	_	_	0	root	_	_
+5	kazanamadı	kazanamadı	VERB	_	_	0	root	_	_
+6	m	m	NOUN	_	_	0	root	_	_
+
+# sent_id = 121
+# text = Yeni aldığım kitap , içeriğiyle beni çok etkiledi .
+1	Yeni	Yeni	ADJ	_	_	0	root	_	_
+2	aldığım	aldığım	VERB	_	_	0	root	_	_
+3	kitap	kitap	NOUN	_	_	0	root	_	_
+4	,	,	PUNCT	_	_	0	root	_	_
+5	içeriğiyle	içeriğiyle	NOUN	_	_	0	root	_	_
+6	beni	beni	PRON	_	_	0	root	_	_
+7	çok	çok	ADV	_	_	0	root	_	_
+8	etkiledi	etkiledi	VERB	_	_	0	root	_	_
+9	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 122
+# text = Yıldızlı bir gece insana ilham verir .
+1	Yıldızlı	Yıldızlı	ADJ	_	_	0	root	_	_
+2	bir	bir	DET	_	_	0	root	_	_
+3	gece	gece	NOUN	_	_	0	root	_	_
+4	insana	insana	NOUN	_	_	0	root	_	_
+5	ilham	ilham	NOUN	_	_	0	root	_	_
+6	verir	verir	VERB	_	_	0	root	_	_
+7	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 123
+# text = Onu uzun süre unutmay çalışmadım değil ama hala hatırasını aklımdan çıkaramıyorum .
+1	Onu	Onu	PRON	_	_	0	root	_	_
+2	uzun	uzun	ADJ	_	_	0	root	_	_
+3	süre	süre	NOUN	_	_	0	root	_	_
+4	unutmay	unutmay	VERB	_	_	0	root	_	_
+5	çalışmadım	çalışmadım	VERB	_	_	0	root	_	_
+6	değil	değil	AUX	_	_	0	root	_	_
+7	ama	ama	CCONJ	_	_	0	root	_	_
+8	hala	hala	ADV	_	_	0	root	_	_
+9	hatırasını	hatırasını	NOUN	_	_	0	root	_	_
+10	aklımdan	aklımdan	NOUN	_	_	0	root	_	_
+11	çıkaramıyorum	çıkaramıyorum	VERB	_	_	0	root	_	_
+12	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 124
+# text = Sabah kahvaltıda çay döküldü ve masayı temizlemek zorunda kaldım .
+1	Sabah	Sabah	NOUN	_	_	0	root	_	_
+2	kahvaltıda	kahvaltıda	NOUN	_	_	0	root	_	_
+3	çay	çay	NOUN	_	_	0	root	_	_
+4	döküldü	döküldü	VERB	_	_	0	root	_	_
+5	ve	ve	CCONJ	_	_	0	root	_	_
+6	masayı	masayı	NOUN	_	_	0	root	_	_
+7	temizlemek	temizlemek	VERB	_	_	0	root	_	_
+8	zorunda	zorunda	ADJ	_	_	0	root	_	_
+9	kaldım	kaldım	VERB	_	_	0	root	_	_
+10	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 125
+# text = Tatilde kamp yapmak , doğayla iç içe olmaktan nefret edeceğimi sanıyordum ama denediğimde hoşuma gitti .
+1	Tatilde	Tatilde	NOUN	_	_	0	root	_	_
+2	kamp	kamp	NOUN	_	_	0	root	_	_
+3	yapmak	yapmak	VERB	_	_	0	root	_	_
+4	,	,	PUNCT	_	_	0	root	_	_
+5	doğayla	doğayla	ADJ	_	_	0	root	_	_
+6	iç	iç	ADJ	_	_	0	root	_	_
+7	içe	içe	NOUN	_	_	0	root	_	_
+8	olmaktan	olmaktan	VERB	_	_	0	root	_	_
+9	nefret	nefret	NOUN	_	_	0	root	_	_
+10	edeceğimi	edeceğimi	VERB	_	_	0	root	_	_
+11	sanıyordum	sanıyordum	VERB	_	_	0	root	_	_
+12	ama	ama	CCONJ	_	_	0	root	_	_
+13	denediğimde	denediğimde	VERB	_	_	0	root	_	_
+14	hoşuma	hoşuma	NOUN	_	_	0	root	_	_
+15	gitti	gitti	VERB	_	_	0	root	_	_
+16	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 126
+# text = Sürekli bir şeyler ters gidiyor gibi hissediyorum .
+1	Sürekli	Sürekli	ADV	_	_	0	root	_	_
+2	bir	bir	DET	_	_	0	root	_	_
+3	şeyler	şeyler	NOUN	_	_	0	root	_	_
+4	ters	ters	ADJ	_	_	0	root	_	_
+5	gidiyor	gidiyor	VERB	_	_	0	root	_	_
+6	gibi	gibi	ADP	_	_	0	root	_	_
+7	hissediyorum	hissediyorum	VERB	_	_	0	root	_	_
+8	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 127
+# text = Bu kadar olumsuzluk arasında ne yapacağımı bilemiyorum ve çaresiz hissediyorum .
+1	Bu	Bu	DET	_	_	0	root	_	_
+2	kadar	kadar	ADP	_	_	0	root	_	_
+3	olumsuzluk	olumsuzluk	NOUN	_	_	0	root	_	_
+4	arasında	arasında	ADJ	_	_	0	root	_	_
+5	ne	ne	PRON	_	_	0	root	_	_
+6	yapacağımı	yapacağımı	VERB	_	_	0	root	_	_
+7	bilemiyorum	bilemiyorum	VERB	_	_	0	root	_	_
+8	ve	ve	CCONJ	_	_	0	root	_	_
+9	çaresiz	çaresiz	ADJ	_	_	0	root	_	_
+10	hissediyorum	hissediyorum	VERB	_	_	0	root	_	_
+11	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 128
+# text = Bugün tamirci eve gelmediği için işlerim aksadı .
+1	Bugün	Bugün	NOUN	_	_	0	root	_	_
+2	tamirci	tamirci	NOUN	_	_	0	root	_	_
+3	eve	eve	NOUN	_	_	0	root	_	_
+4	gelmediği	gelmediği	VERB	_	_	0	root	_	_
+5	için	için	ADP	_	_	0	root	_	_
+6	işlerim	işlerim	NOUN	_	_	0	root	_	_
+7	aksadı	aksadı	VERB	_	_	0	root	_	_
+8	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 129
+# text = Onun bu anlamsız hareketleri beni sinirlendiriyor .
+1	Onun	Onun	PRON	_	_	0	root	_	_
+2	bu	bu	DET	_	_	0	root	_	_
+3	anlamsız	anlamsız	ADJ	_	_	0	root	_	_
+4	hareketleri	hareketleri	NOUN	_	_	0	root	_	_
+5	beni	beni	PRON	_	_	0	root	_	_
+6	sinirlendiriyor	sinirlendiriyor	VERB	_	_	0	root	_	_
+7	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 130
+# text = Egoist bir insan olduğu için onunla konuşmamayı tercih ediyorum .
+1	Egoist	Egoist	ADJ	_	_	0	root	_	_
+2	bir	bir	DET	_	_	0	root	_	_
+3	insan	insan	NOUN	_	_	0	root	_	_
+4	olduğu	olduğu	VERB	_	_	0	root	_	_
+5	için	için	ADP	_	_	0	root	_	_
+6	onunla	onunla	PRON	_	_	0	root	_	_
+7	konuşmamayı	konuşmamayı	VERB	_	_	0	root	_	_
+8	tercih	tercih	NOUN	_	_	0	root	_	_
+9	ediyorum	ediyorum	VERB	_	_	0	root	_	_
+10	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 131
+# text = Geçen gün kırılan vazonun yenisi ile değiştirilmiş olduğunu görünce gülümsedi .
+1	Geçen	Geçen	ADJ	_	_	0	root	_	_
+2	gün	gün	NOUN	_	_	0	root	_	_
+3	kırılan	kırılan	VERB	_	_	0	root	_	_
+4	vazonun	vazonun	NOUN	_	_	0	root	_	_
+5	yenisi	yenisi	NOUN	_	_	0	root	_	_
+6	ile	ile	CCONJ	_	_	0	root	_	_
+7	değiştirilmiş	değiştirilmiş	VERB	_	_	0	root	_	_
+8	olduğunu	olduğunu	VERB	_	_	0	root	_	_
+9	görünce	görünce	VERB	_	_	0	root	_	_
+10	gülümsedi	gülümsedi	VERB	_	_	0	root	_	_
+11	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 132
+# text = Yeni dostluklar , hayatı zenginleştirir .
+1	Yeni	Yeni	ADJ	_	_	0	root	_	_
+2	dostluklar	dostluklar	NOUN	_	_	0	root	_	_
+3	,	,	PUNCT	_	_	0	root	_	_
+4	hayatı	hayatı	NOUN	_	_	0	root	_	_
+5	zenginleştirir	zenginleştirir	VERB	_	_	0	root	_	_
+6	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 133
+# text = İnsanların ilgisizliği beni derinden etkiliyor .
+1	İnsanların	İnsanların	NOUN	_	_	0	root	_	_
+2	ilgisizliği	ilgisizliği	NOUN	_	_	0	root	_	_
+3	beni	beni	PRON	_	_	0	root	_	_
+4	derinden	derinden	ADJ	_	_	0	root	_	_
+5	etkiliyor	etkiliyor	VERB	_	_	0	root	_	_
+6	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 134
+# text = Arkadaşlarımın yaptığı sürpriz doğum günü kutlaması beni çok mutlu etti .
+1	Arkadaşlarımın	Arkadaşlarımın	NOUN	_	_	0	root	_	_
+2	yaptığı	yaptığı	VERB	_	_	0	root	_	_
+3	sürpriz	sürpriz	NOUN	_	_	0	root	_	_
+4	doğum	doğum	NOUN	_	_	0	root	_	_
+5	günü	günü	NOUN	_	_	0	root	_	_
+6	kutlaması	kutlaması	VERB	_	_	0	root	_	_
+7	beni	beni	PRON	_	_	0	root	_	_
+8	çok	çok	ADV	_	_	0	root	_	_
+9	mutlu	mutlu	ADJ	_	_	0	root	_	_
+10	etti	etti	VERB	_	_	0	root	_	_
+11	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 135
+# text = Mücadele etmekten yoruldum ve bu durum beni çok yıpratıyor .
+1	Mücadele	Mücadele	NOUN	_	_	0	root	_	_
+2	etmekten	etmekten	VERB	_	_	0	root	_	_
+3	yoruldum	yoruldum	VERB	_	_	0	root	_	_
+4	ve	ve	CCONJ	_	_	0	root	_	_
+5	bu	bu	DET	_	_	0	root	_	_
+6	durum	durum	NOUN	_	_	0	root	_	_
+7	beni	beni	PRON	_	_	0	root	_	_
+8	çok	çok	ADV	_	_	0	root	_	_
+9	yıpratıyor	yıpratıyor	VERB	_	_	0	root	_	_
+10	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 136
+# text = Her çaba sonuçsuz kalıyor gibi hissediyorum .
+1	Her	Her	DET	_	_	0	root	_	_
+2	çaba	çaba	NOUN	_	_	0	root	_	_
+3	sonuçsuz	sonuçsuz	ADJ	_	_	0	root	_	_
+4	kalıyor	kalıyor	VERB	_	_	0	root	_	_
+5	gibi	gibi	ADP	_	_	0	root	_	_
+6	hissediyorum	hissediyorum	VERB	_	_	0	root	_	_
+7	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 137
+# text = Ne olursa olsun yanımda durmaktan vazgeçmediğin için teşekkür ederim .
+1	Ne	Ne	PRON	_	_	0	root	_	_
+2	olursa	olursa	VERB	_	_	0	root	_	_
+3	olsun	olsun	VERB	_	_	0	root	_	_
+4	yanımda	yanımda	ADJ	_	_	0	root	_	_
+5	durmaktan	durmaktan	VERB	_	_	0	root	_	_
+6	vazgeçmediğin	vazgeçmediğin	VERB	_	_	0	root	_	_
+7	için	için	ADP	_	_	0	root	_	_
+8	teşekkür	teşekkür	NOUN	_	_	0	root	_	_
+9	ederim	ederim	VERB	_	_	0	root	_	_
+10	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 138
+# text = Hasta tedaviye cevap vermiyor .
+1	Hasta	Hasta	NOUN	_	_	0	root	_	_
+2	tedaviye	tedaviye	NOUN	_	_	0	root	_	_
+3	cevap	cevap	NOUN	_	_	0	root	_	_
+4	vermiyor	vermiyor	VERB	_	_	0	root	_	_
+5	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 139
+# text = Yıllar süren çalışmalar sonucu , çölün rüzgarlarını ve termal akımları kullanarak yükselen hafif hava araçları geliştirdiler ama bu araçlar kurtuluş yerine yok oluş getirdi .
+1	Yıllar	Yıllar	NOUN	_	_	0	root	_	_
+2	süren	süren	VERB	_	_	0	root	_	_
+3	çalışmalar	çalışmalar	VERB	_	_	0	root	_	_
+4	sonucu	sonucu	NOUN	_	_	0	root	_	_
+5	,	,	PUNCT	_	_	0	root	_	_
+6	çölün	çölün	NOUN	_	_	0	root	_	_
+7	rüzgarlarını	rüzgarlarını	NOUN	_	_	0	root	_	_
+8	ve	ve	CCONJ	_	_	0	root	_	_
+9	termal	termal	NOUN	_	_	0	root	_	_
+10	akımları	akımları	NOUN	_	_	0	root	_	_
+11	kullanarak	kullanarak	VERB	_	_	0	root	_	_
+12	yükselen	yükselen	VERB	_	_	0	root	_	_
+13	hafif	hafif	ADJ	_	_	0	root	_	_
+14	hava	hava	NOUN	_	_	0	root	_	_
+15	araçları	araçları	NOUN	_	_	0	root	_	_
+16	geliştirdiler	geliştirdiler	VERB	_	_	0	root	_	_
+17	ama	ama	CCONJ	_	_	0	root	_	_
+18	bu	bu	DET	_	_	0	root	_	_
+19	araçlar	araçlar	NOUN	_	_	0	root	_	_
+20	kurtuluş	kurtuluş	NOUN	_	_	0	root	_	_
+21	yerine	yerine	NOUN	_	_	0	root	_	_
+22	yok	yok	ADJ	_	_	0	root	_	_
+23	oluş	oluş	NOUN	_	_	0	root	_	_
+24	getirdi	getirdi	VERB	_	_	0	root	_	_
+25	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 140
+# text = Başarı , sabır ve özveriyle gelir .
+1	Başarı	Başarı	NOUN	_	_	0	root	_	_
+2	,	,	PUNCT	_	_	0	root	_	_
+3	sabır	sabır	NOUN	_	_	0	root	_	_
+4	ve	ve	CCONJ	_	_	0	root	_	_
+5	özveriyle	özveriyle	NOUN	_	_	0	root	_	_
+6	gelir	gelir	VERB	_	_	0	root	_	_
+7	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 141
+# text = Ülkenin gidişatını hiç iyi görmüyoru m
+1	Ülkenin	Ülkenin	NOUN	_	_	0	root	_	_
+2	gidişatını	gidişatını	NOUN	_	_	0	root	_	_
+3	hiç	hiç	ADV	_	_	0	root	_	_
+4	iyi	iyi	ADJ	_	_	0	root	_	_
+5	görmüyoru	görmüyoru	VERB	_	_	0	root	_	_
+6	m	m	NOUN	_	_	0	root	_	_
+
+# sent_id = 142
+# text = Doğum günün için aldığım sarı kapaklı kitapta çok yararlı bilgiler mevcutmuş .
+1	Doğum	Doğum	NOUN	_	_	0	root	_	_
+2	günün	günün	NOUN	_	_	0	root	_	_
+3	için	için	ADP	_	_	0	root	_	_
+4	aldığım	aldığım	VERB	_	_	0	root	_	_
+5	sarı	sarı	ADJ	_	_	0	root	_	_
+6	kapaklı	kapaklı	ADJ	_	_	0	root	_	_
+7	kitapta	kitapta	NOUN	_	_	0	root	_	_
+8	çok	çok	ADV	_	_	0	root	_	_
+9	yararlı	yararlı	ADJ	_	_	0	root	_	_
+10	bilgiler	bilgiler	NOUN	_	_	0	root	_	_
+11	mevcutmuş	mevcutmuş	VERB	_	_	0	root	_	_
+12	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 143
+# text = Klavye ile çok hızlı yazı yazmaya bayılıyorum .
+1	Klavye	Klavye	NOUN	_	_	0	root	_	_
+2	ile	ile	CCONJ	_	_	0	root	_	_
+3	çok	çok	ADV	_	_	0	root	_	_
+4	hızlı	hızlı	ADJ	_	_	0	root	_	_
+5	yazı	yazı	NOUN	_	_	0	root	_	_
+6	yazmaya	yazmaya	VERB	_	_	0	root	_	_
+7	bayılıyorum	bayılıyorum	VERB	_	_	0	root	_	_
+8	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 144
+# text = Bu soğuk hava beni çok rahatsız ediyor ve dışarı çıkmak istemiyorum .
+1	Bu	Bu	DET	_	_	0	root	_	_
+2	soğuk	soğuk	ADJ	_	_	0	root	_	_
+3	hava	hava	NOUN	_	_	0	root	_	_
+4	beni	beni	PRON	_	_	0	root	_	_
+5	çok	çok	ADV	_	_	0	root	_	_
+6	rahatsız	rahatsız	ADJ	_	_	0	root	_	_
+7	ediyor	ediyor	VERB	_	_	0	root	_	_
+8	ve	ve	CCONJ	_	_	0	root	_	_
+9	dışarı	dışarı	NOUN	_	_	0	root	_	_
+10	çıkmak	çıkmak	VERB	_	_	0	root	_	_
+11	istemiyorum	istemiyorum	VERB	_	_	0	root	_	_
+12	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 145
+# text = Marketten aldığım süt bozuk çıktı , fark etmeden içtim .
+1	Marketten	Marketten	NOUN	_	_	0	root	_	_
+2	aldığım	aldığım	VERB	_	_	0	root	_	_
+3	süt	süt	NOUN	_	_	0	root	_	_
+4	bozuk	bozuk	ADJ	_	_	0	root	_	_
+5	çıktı	çıktı	VERB	_	_	0	root	_	_
+6	,	,	PUNCT	_	_	0	root	_	_
+7	fark	fark	NOUN	_	_	0	root	_	_
+8	etmeden	etmeden	VERB	_	_	0	root	_	_
+9	içtim	içtim	VERB	_	_	0	root	_	_
+10	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 146
+# text = Kötülük içine işlemiş .
+1	Kötülük	Kötülük	NOUN	_	_	0	root	_	_
+2	içine	içine	ADJ	_	_	0	root	_	_
+3	işlemiş	işlemiş	VERB	_	_	0	root	_	_
+4	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 147
+# text = Yapmak isteyip de yapmaya fırsat bulamadığım çok şey var , dedi .
+1	Yapmak	Yapmak	VERB	_	_	0	root	_	_
+2	isteyip	isteyip	VERB	_	_	0	root	_	_
+3	de	de	CCONJ	_	_	0	root	_	_
+4	yapmaya	yapmaya	VERB	_	_	0	root	_	_
+5	fırsat	fırsat	NOUN	_	_	0	root	_	_
+6	bulamadığım	bulamadığım	VERB	_	_	0	root	_	_
+7	çok	çok	ADJ	_	_	0	root	_	_
+8	şey	şey	NOUN	_	_	0	root	_	_
+9	var	var	ADJ	_	_	0	root	_	_
+10	,	,	PUNCT	_	_	0	root	_	_
+11	dedi	dedi	VERB	_	_	0	root	_	_
+12	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 148
+# text = Verdiğim siparişin geç gelmesi yetmezmiş gibi gelen yemekler birbirine karışmış ve soğumuştu .
+1	Verdiğim	Verdiğim	VERB	_	_	0	root	_	_
+2	siparişin	siparişin	NOUN	_	_	0	root	_	_
+3	geç	geç	ADV	_	_	0	root	_	_
+4	gelmesi	gelmesi	VERB	_	_	0	root	_	_
+5	yetmezmiş	yetmezmiş	VERB	_	_	0	root	_	_
+6	gibi	gibi	ADP	_	_	0	root	_	_
+7	gelen	gelen	VERB	_	_	0	root	_	_
+8	yemekler	yemekler	NOUN	_	_	0	root	_	_
+9	birbirine	birbirine	PRON	_	_	0	root	_	_
+10	karışmış	karışmış	VERB	_	_	0	root	_	_
+11	ve	ve	CCONJ	_	_	0	root	_	_
+12	soğumuştu	soğumuştu	VERB	_	_	0	root	_	_
+13	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 149
+# text = Bir türlü mutluluğu yakalayamıyorum .
+1	Bir	Bir	NUM	_	_	0	root	_	_
+2	türlü	türlü	ADJ	_	_	0	root	_	_
+3	mutluluğu	mutluluğu	NOUN	_	_	0	root	_	_
+4	yakalayamıyorum	yakalayamıyorum	VERB	_	_	0	root	_	_
+5	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 150
+# text = Yaptığı ilk iş başvurusu kısa sürede kabul edilince sevinç çığlıkları atmaya başladı .
+1	Yaptığı	Yaptığı	VERB	_	_	0	root	_	_
+2	ilk	ilk	ADJ	_	_	0	root	_	_
+3	iş	iş	NOUN	_	_	0	root	_	_
+4	başvurusu	başvurusu	NOUN	_	_	0	root	_	_
+5	kısa	kısa	ADJ	_	_	0	root	_	_
+6	sürede	sürede	NOUN	_	_	0	root	_	_
+7	kabul	kabul	NOUN	_	_	0	root	_	_
+8	edilince	edilince	VERB	_	_	0	root	_	_
+9	sevinç	sevinç	NOUN	_	_	0	root	_	_
+10	çığlıkları	çığlıkları	NOUN	_	_	0	root	_	_
+11	atmaya	atmaya	VERB	_	_	0	root	_	_
+12	başladı	başladı	VERB	_	_	0	root	_	_
+13	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 151
+# text = İşler uzadığı için ve sürekli aksilikler çıktığı için bu gece işten erken çıkamadık .
+1	İşler	İşler	NOUN	_	_	0	root	_	_
+2	uzadığı	uzadığı	VERB	_	_	0	root	_	_
+3	için	için	ADP	_	_	0	root	_	_
+4	ve	ve	CCONJ	_	_	0	root	_	_
+5	sürekli	sürekli	ADV	_	_	0	root	_	_
+6	aksilikler	aksilikler	NOUN	_	_	0	root	_	_
+7	çıktığı	çıktığı	VERB	_	_	0	root	_	_
+8	için	için	ADP	_	_	0	root	_	_
+9	bu	bu	DET	_	_	0	root	_	_
+10	gece	gece	NOUN	_	_	0	root	_	_
+11	işten	işten	NOUN	_	_	0	root	_	_
+12	erken	erken	ADV	_	_	0	root	_	_
+13	çıkamadık	çıkamadık	VERB	_	_	0	root	_	_
+14	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 152
+# text = Sokakta yürürken bir çiçek bana eğilip ' Merhaba ! ' dedi , o an evrende yalnız olmadığımızı hissettim ve bu korkunçtu , galiba deliriyorum .
+1	Sokakta	Sokakta	NOUN	_	_	0	root	_	_
+2	yürürken	yürürken	VERB	_	_	0	root	_	_
+3	bir	bir	DET	_	_	0	root	_	_
+4	çiçek	çiçek	NOUN	_	_	0	root	_	_
+5	bana	bana	PRON	_	_	0	root	_	_
+6	eğilip	eğilip	VERB	_	_	0	root	_	_
+7	'	'	PUNCT	_	_	0	root	_	_
+8	Merhaba	Merhaba	NOUN	_	_	0	root	_	_
+9	!	!	PUNCT	_	_	0	root	_	_
+10	'	'	PUNCT	_	_	0	root	_	_
+11	dedi	dedi	VERB	_	_	0	root	_	_
+12	,	,	PUNCT	_	_	0	root	_	_
+13	o	o	DET	_	_	0	root	_	_
+14	an	an	NOUN	_	_	0	root	_	_
+15	evrende	evrende	NOUN	_	_	0	root	_	_
+16	yalnız	yalnız	ADV	_	_	0	root	_	_
+17	olmadığımızı	olmadığımızı	VERB	_	_	0	root	_	_
+18	hissettim	hissettim	VERB	_	_	0	root	_	_
+19	ve	ve	CCONJ	_	_	0	root	_	_
+20	bu	bu	PRON	_	_	0	root	_	_
+21	korkunçtu	korkunçtu	VERB	_	_	0	root	_	_
+22	,	,	PUNCT	_	_	0	root	_	_
+23	galiba	galiba	ADV	_	_	0	root	_	_
+24	deliriyorum	deliriyorum	VERB	_	_	0	root	_	_
+25	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 153
+# text = Gandalf bana bu ışık hüzmesini verdiğinde tereddütlerim vardı yalan olmasın ama madenlerde o kadar işimize yaradı ki eski büyücünün yanına gidip teşekkür etmeliyim .
+1	Gandalf	Gandalf	PROPN	_	_	0	root	_	_
+2	bana	bana	PRON	_	_	0	root	_	_
+3	bu	bu	DET	_	_	0	root	_	_
+4	ışık	ışık	NOUN	_	_	0	root	_	_
+5	hüzmesini	hüzmesini	NOUN	_	_	0	root	_	_
+6	verdiğinde	verdiğinde	VERB	_	_	0	root	_	_
+7	tereddütlerim	tereddütlerim	NOUN	_	_	0	root	_	_
+8	vardı	vardı	VERB	_	_	0	root	_	_
+9	yalan	yalan	ADJ	_	_	0	root	_	_
+10	olmasın	olmasın	VERB	_	_	0	root	_	_
+11	ama	ama	CCONJ	_	_	0	root	_	_
+12	madenlerde	madenlerde	NOUN	_	_	0	root	_	_
+13	o	o	DET	_	_	0	root	_	_
+14	kadar	kadar	ADP	_	_	0	root	_	_
+15	işimize	işimize	NOUN	_	_	0	root	_	_
+16	yaradı	yaradı	VERB	_	_	0	root	_	_
+17	ki	ki	CCONJ	_	_	0	root	_	_
+18	eski	eski	ADJ	_	_	0	root	_	_
+19	büyücünün	büyücünün	NOUN	_	_	0	root	_	_
+20	yanına	yanına	ADJ	_	_	0	root	_	_
+21	gidip	gidip	VERB	_	_	0	root	_	_
+22	teşekkür	teşekkür	NOUN	_	_	0	root	_	_
+23	etmeliyim	etmeliyim	VERB	_	_	0	root	_	_
+24	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 154
+# text = Yemekhane sırasının uzunluğu sebebiyle sıra bana geldiğinde tatlı alamamış oldum .
+1	Yemekhane	Yemekhane	NOUN	_	_	0	root	_	_
+2	sırasının	sırasının	NOUN	_	_	0	root	_	_
+3	uzunluğu	uzunluğu	NOUN	_	_	0	root	_	_
+4	sebebiyle	sebebiyle	NOUN	_	_	0	root	_	_
+5	sıra	sıra	NOUN	_	_	0	root	_	_
+6	bana	bana	PRON	_	_	0	root	_	_
+7	geldiğinde	geldiğinde	VERB	_	_	0	root	_	_
+8	tatlı	tatlı	ADJ	_	_	0	root	_	_
+9	alamamış	alamamış	VERB	_	_	0	root	_	_
+10	oldum	oldum	VERB	_	_	0	root	_	_
+11	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 155
+# text = Bugün kedisinin 3 yaş doğum gününü kutlarken yeni kedi sahipleneceği haberini duyurduğu için çok mutlu ydu .
+1	Bugün	Bugün	NOUN	_	_	0	root	_	_
+2	kedisinin	kedisinin	NOUN	_	_	0	root	_	_
+3	3	3	NUM	_	_	0	root	_	_
+4	yaş	yaş	ADJ	_	_	0	root	_	_
+5	doğum	doğum	NOUN	_	_	0	root	_	_
+6	gününü	gününü	NOUN	_	_	0	root	_	_
+7	kutlarken	kutlarken	VERB	_	_	0	root	_	_
+8	yeni	yeni	ADJ	_	_	0	root	_	_
+9	kedi	kedi	NOUN	_	_	0	root	_	_
+10	sahipleneceği	sahipleneceği	VERB	_	_	0	root	_	_
+11	haberini	haberini	NOUN	_	_	0	root	_	_
+12	duyurduğu	duyurduğu	VERB	_	_	0	root	_	_
+13	için	için	ADP	_	_	0	root	_	_
+14	çok	çok	ADV	_	_	0	root	_	_
+15	mutlu	mutlu	ADJ	_	_	0	root	_	_
+16	ydu	ydu	AUX	_	_	0	root	_	_
+17	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 156
+# text = Çocuk parka gideceği için çok hevesli ydi
+1	Çocuk	Çocuk	NOUN	_	_	0	root	_	_
+2	parka	parka	NOUN	_	_	0	root	_	_
+3	gideceği	gideceği	VERB	_	_	0	root	_	_
+4	için	için	ADP	_	_	0	root	_	_
+5	çok	çok	ADV	_	_	0	root	_	_
+6	hevesli	hevesli	ADJ	_	_	0	root	_	_
+7	ydi	ydi	AUX	_	_	0	root	_	_
+
+# sent_id = 157
+# text = Bugün doğum günüme gelen sürpriz hediye beni çok mutlu etti .
+1	Bugün	Bugün	NOUN	_	_	0	root	_	_
+2	doğum	doğum	NOUN	_	_	0	root	_	_
+3	günüme	günüme	NOUN	_	_	0	root	_	_
+4	gelen	gelen	VERB	_	_	0	root	_	_
+5	sürpriz	sürpriz	ADJ	_	_	0	root	_	_
+6	hediye	hediye	NOUN	_	_	0	root	_	_
+7	beni	beni	PRON	_	_	0	root	_	_
+8	çok	çok	ADV	_	_	0	root	_	_
+9	mutlu	mutlu	ADJ	_	_	0	root	_	_
+10	etti	etti	VERB	_	_	0	root	_	_
+11	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = 158
+# text = Üstün başarılarından dolayı bu sene de ödül aldığı için kardeşi Fatma ile gurur duyuyordu .
+1	Üstün	Üstün	ADJ	_	_	0	root	_	_
+2	başarılarından	başarılarından	NOUN	_	_	0	root	_	_
+3	dolayı	dolayı	ADP	_	_	0	root	_	_
+4	bu	bu	DET	_	_	0	root	_	_
+5	sene	sene	NOUN	_	_	0	root	_	_
+6	de	de	CCONJ	_	_	0	root	_	_
+7	ödül	ödül	NOUN	_	_	0	root	_	_
+8	aldığı	aldığı	VERB	_	_	0	root	_	_
+9	için	için	ADP	_	_	0	root	_	_
+10	kardeşi	kardeşi	NOUN	_	_	0	root	_	_
+11	Fatma	Fatma	PROPN	_	_	0	root	_	_
+12	ile	ile	CCONJ	_	_	0	root	_	_
+13	gurur	gurur	NOUN	_	_	0	root	_	_
+14	duyuyordu	duyuyordu	VERB	_	_	0	root	_	_
+15	.	.	PUNCT	_	_	0	root	_	_
