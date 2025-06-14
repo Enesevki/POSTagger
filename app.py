@@ -5,6 +5,7 @@ from src.model import load_crf_model, predict_tags
 from src.features import sent2features
 import os
 
+# Türkçe POS Etiketlerinin Açıklamaları
 POS_TR = {
     "NOUN": "İsim",
     "VERB": "Fiil",
@@ -26,11 +27,12 @@ POS_TR = {
     "O": "Diğer"
 }
 
-# --- Streamlit UI Ayarları ---
+# Streamlit Ayarları
 st.set_page_config(page_title="Türkçe POS Tagger", page_icon="🤖", layout="centered")
 st.title("Türkçe POS Tagger Demo 🤖")
 st.write("Herhangi bir Türkçe cümle girin, kelimelerin hangi tür (POS) olduğunu görün.")
 
+# Modeli Yükle
 @st.cache_resource
 def load_model():
     model_path = "outputs/models/crf_final.pkl"
@@ -39,26 +41,26 @@ def load_model():
         st.stop()
     return load_crf_model(model_path)
 
-# --- Kullanıcı Girişi ---
+# Kullanıcıdan Giriş Al
 sentence = st.text_input("Cümlenizi girin:", "")
 
+# POS Etiketleme Butonu
 if st.button("POS Tagle!") or (sentence and st.session_state.get("already_tagged") != sentence):
     st.session_state["already_tagged"] = sentence
 
     model = load_model()
 
-    words = sentence.strip().split()
-    if not words:
+    # Cümleyi token–etiket çiftlerine çevir (dummy etiket "O")
+    tokens = [(word, "O") for word in sentence.strip().split()]
+    if not tokens:
         st.info("Lütfen bir cümle girin.")
     else:
-        # "O" etiketi dummy olarak kullanılabilir
-        dummy_tagged = [(word, "O") for word in words]
-        features = [sent2features(dummy_tagged)]
+        features = [sent2features(tokens)]  # Tek cümlelik liste
         predictions = predict_tags(model, features)[0]
 
         display = [
-            {"Kelime": w, "Etiket": tag, "Türkçesi": POS_TR.get(tag, "-")}
-            for w, tag in zip(words, predictions)
+            {"Kelime": word, "Etiket": tag, "Türkçesi": POS_TR.get(tag, "-")}
+            for (word, _), tag in zip(tokens, predictions)
         ]
 
         st.write("### Sonuç:")
