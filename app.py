@@ -51,7 +51,7 @@ if st.button("POS Tagle!") or (sentence and st.session_state.get("already_tagged
     model = load_model()
 
     # Cümleyi token–etiket çiftlerine çevir (dummy etiket "O")
-    tokens = [(word, "O") for word in sentence.strip().split()]
+    tokens = [(word, "O") for word in sentence.strip()]
     if not tokens:
         st.info("Lütfen bir cümle girin.")
     else:
