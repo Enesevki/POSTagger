@@ -1,33 +1,65 @@
+# app.py
+
 import streamlit as st
 from src.model import load_crf_model, predict_tags
 from src.features import sent2features
-from src.data_loader import read_conll
-from io import StringIO
+import os
 
-st.set_page_config(page_title="Türkçe POS Tagger", layout="centered")
+POS_TR = {
+    "NOUN": "İsim",
+    "VERB": "Fiil",
+    "ADJ": "Sıfat",
+    "ADV": "Zarf",
+    "PRON": "Zamir",
+    "PROPN": "Özel İsim",
+    "AUX": "Yardımcı Fiil",
+    "ADP": "İlgeç",
+    "DET": "Belirteç",
+    "NUM": "Sayı",
+    "CCONJ": "Bağlaç",
+    "SCONJ": "Bağlaç (Alt cümle)",
+    "PART": "Partikül",
+    "INTJ": "Ünlem",
+    "PUNCT": "Noktalama",
+    "SYM": "Sembol",
+    "X": "Bilinmeyen",
+    "O": "Diğer"
+}
 
-st.title(" Türkçe CRF POS Tagger")
-st.write("Bir cümle girin ve modelin tahmin ettiği sözcük türlerini görün.")
+# --- Streamlit UI Ayarları ---
+st.set_page_config(page_title="Türkçe POS Tagger", page_icon="🤖", layout="centered")
+st.title("Türkçe POS Tagger Demo 🤖")
+st.write("Herhangi bir Türkçe cümle girin, kelimelerin hangi tür (POS) olduğunu görün.")
 
-# Modeli yükle
 @st.cache_resource
 def load_model():
-    return load_crf_model("outputs/models/crf_final.pkl")
+    model_path = "crf_final.pkl"
+    if not os.path.exists(model_path):
+        st.error(f"Model dosyası bulunamadı: {model_path}")
+        st.stop()
+    return load_crf_model(model_path)
 
-model = load_model()
+# --- Kullanıcı Girişi ---
+sentence = st.text_input("Cümlenizi girin:", "")
 
-# Kullanıcıdan cümle al
-user_input = st.text_area("Cümle giriniz:", "Ben seni seviyorum.")
+if st.button("POS Tagle!") or (sentence and st.session_state.get("already_tagged") != sentence):
+    st.session_state["already_tagged"] = sentence
 
-if st.button("Etiketle"):
-    if not user_input.strip():
-        st.warning("Lütfen bir cümle giriniz.")
+    model = load_model()
+
+    words = sentence.strip().split()
+    if not words:
+        st.info("Lütfen bir cümle girin.")
     else:
-        # Tokenizasyon ve özellik çıkarımı
-        tokens = [(word, "O") for word in user_input.strip().split()]
-        features = [sent2features(tokens)]
-        predicted = predict_tags(model, features)[0]
+        # "O" etiketi dummy olarak kullanılabilir
+        dummy_tagged = [(word, "O") for word in words]
+        features = [sent2features(dummy_tagged)]
+        predictions = predict_tags(model, features)[0]
 
-        st.markdown("###  Etiketlenmiş Çıktı")
-        for word, tag in zip(user_input.strip().split(), predicted):
-            st.write(f"`{word}` → **{tag}**")
+        display = [
+            {"Kelime": w, "Etiket": tag, "Türkçesi": POS_TR.get(tag, "-")}
+            for w, tag in zip(words, predictions)
+        ]
+
+        st.write("### Sonuç:")
+        st.table(display)
