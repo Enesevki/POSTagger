@@ -1,4 +1,4 @@
-# Türkçe Cümle Öğesi Etiketleme (POS Tagging) için CRF Modeli
+# CRF Tabanlı Türkçe Cümle Öğesi Etiketleme (POS Tagging)
 
 Bu proje, Türkçe metinler için **Koşullu Rastgele Alanlar (Conditional Random Field - CRF)** tabanlı bir Cümle Öğesi Etiketleme (Part-of-Speech Tagging) modeli geliştirmek, eğitmek ve analiz etmek için kapsamlı bir araç seti sunar. Projenin temel amacı, bir kelime dizisi verildiğinde her kelimeye ait dilbilgisel rolü (`NOUN`, `VERB`, `ADJ` vb.) doğru bir şekilde atamaktır.
 
