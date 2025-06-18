@@ -6,6 +6,10 @@ CRF, özellikle POS tagging gibi sıralı veri etiketleme görevleri için güç
 
 <br>
 
+## Canlı Demo ve Tanıtım Videosu
+- Kendi cümlelerinize POS Tagging uygulamak isterseniz geliştirdiğimiz site üzerinden projeye ulaşabilirsinşz: https://turkishpostagger.streamlit.app
+- YouTube videomuzda projenin arka planını detaylı bir şekilde açıkladık: https://www.youtube.com/watch?v=AQlYbdYh_bM
+
 ## ✨ Temel Özellikler
 
 Bu proje, bir makine öğrenmesi modelinin yaşam döngüsündeki kritik adımları yönetmek için tasarlanmış modüler araçlar içerir:
